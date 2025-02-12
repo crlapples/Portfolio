@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./App.css";
 
 const App = () => {
   const [randomProject, setRandomProject] = useState<string>("");
@@ -44,16 +45,16 @@ const App = () => {
       <div className="workLinksContainer">
         <ul className="workLinks">
           <li className="github">
-            
+            <img className="githubIcon" src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/github.1024x979.png" href="https://www.github.com/crlapples" />
           </li>
           <li className="fiverr">
-            
+            <img className="fiverrIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/fiverr-icon.png" href="https://www.fiverr.com/crlapples" />
           </li>
           <li className="upwork">
-            
+            <img className="upworkIcon" src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/upwork.1024x1024.png" href="https://www.upwork.com/freelancers/~01df79cc1c51463359?mp_source=share" />
           </li>
           <li className="reddit">
-            
+            <img className="redditIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/reddit.1024x1024.png" href="https://www.reddit.com/user/Spiritual_Chart_204/" />
           </li>
         </ul>
       </div>
