@@ -15,12 +15,12 @@ const App = () => {
       </div>
       <div className="navBarContainer">
         <ul className="navBar">
-          <li className="home">Home</li>
-          <li className="projects">Projects</li>
-          <li className="skills">Skills</li>
-          <li className="resume">Resume</li>
-          <li className="aboutMe">About Me</li>
-          <li className="contact">Contact Me</li>
+          <li className="home" href="#HOME">Home</li>
+          <li className="projects" href="#PROJECTS">Projects</li>
+          <li className="skills" href="#SKILLS">Skills</li>
+          <li className="resume" href="#RESUME">Resume</li>
+          <li className="aboutMe" href="#ABOUTME">About Me</li>
+          <li className="contact" href="#CONTACT">Contact Me</li>
         </ul>
       </div>
       <div className="socialsContainer">
