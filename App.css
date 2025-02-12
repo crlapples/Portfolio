@@ -1,0 +1,85 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.titleDesc {
+  font-size: 18px;
+}
+
+.navBar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+.navBar li {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+
+.navBarContainer ul li::hover {
+  cursor: pointer;
+  background-color: darkgray;
+}
+
+.socials {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+.socials li img::hover {
+  cursor: pointer;
+
+.workLinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+.workLinks li img::hover {
+  cursor: pointer;
+}
