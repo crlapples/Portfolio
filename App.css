@@ -52,7 +52,7 @@
   background-color: white;
 }
 
-.navBarContainer ul li::hover {
+.navBarContainer ul li:hover {
   cursor: pointer;
   background-color: darkgray;
 }
@@ -67,9 +67,34 @@
   background-color: none;
 }
 
-.socials li img::hover {
+.socials li img:hover {
   cursor: pointer;
 
+.linkedin {
+  width: 64px;
+  height: 64px;
+}
+
+.x {
+  width: 64px;
+  height: 64px;
+}
+
+.instagram {
+  width: 64px;
+  height: 64px;
+}
+
+.tiktok {
+  width: 59.125;
+  height: 64px;
+}
+
+.youtube {
+  width: 91px;
+  height: 64px;
+}
+  
 .workLinks {
   list-style-type: none;
   display: flex;
@@ -80,6 +105,57 @@
   background-color: none;
 }
 
-.workLinks li img::hover {
+.workLinks li img:hover {
   cursor: pointer;
+}
+
+.github {
+  width: 66.925px;
+  height: 64px;
+}
+
+.fiverr {
+  width: 64px;
+  height: 64px;
+}
+
+.upwork {
+  width: 64px;
+  height: 64px;
+}
+
+.reddit {
+  width: 64px;
+  height: 64px;
+}
+  
+.achievementsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.achievement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.donateContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.donateDesc {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
 }
