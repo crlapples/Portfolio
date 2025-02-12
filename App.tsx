@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="mainContainer">
       <div className="logoContainer">
-        <img className="logo" src="" />
+        <img className="logo" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/Gemini_Generated_Image_f55fiof55fiof55f%20(1).jpeg" />
       </div>
       <div className="titleContainer">
         <h1 className="title">Code Alchemy</h1>
