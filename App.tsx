@@ -69,6 +69,7 @@ const App = () => {
         </div>
       </div>
       <div className="donateContainer">
+        <p className="donateDesc">Support My Journey</p>
         <form action="https://www.paypal.com/donate" method="post" target="_top">
           <input type="hidden" name="business" value="9S4N7ZRF4KENA" />
           <input type="hidden" name="no_recurring" value="0" />
