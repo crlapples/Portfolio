@@ -5,56 +5,74 @@ const App = () => {
   const [randomProject, setRandomProject] = useState<string>("");
   
   return (
-    <div className="mainContainer">
-      <div className="logoContainer">
+    <main className="mainContainer">
+      <header className="logoContainer">
         <img className="logo" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/Gemini_Generated_Image_f55fiof55fiof55f%20(1).jpeg" />
-      </div>
+      </header>
       <div className="titleContainer">
         <h1 className="title">Code Alchemy</h1>
         <p className="titleDesc">crlapples' Software Developer Portfolio</p>
       </div>
       <div className="navBarContainer">
         <ul className="navBar">
-          <li className="home" href="#HOME">Home</li>
-          <li className="projects" href="#PROJECTS">Projects</li>
-          <li className="skills" href="#SKILLS">Skills</li>
-          <li className="resume" href="#RESUME">Resume</li>
-          <li className="aboutMe" href="#ABOUTME">About Me</li>
-          <li className="contact" href="#CONTACT">Contact Me</li>
+          <li className="home"><a href="#HOME">Home</a></li>
+          <li className="projects"><a href="#PROJECTS">Projects</a></li>
+          <li className="skills"><a href="#SKILLS">Skills</a></li>
+          <li className="resume"><a href="#RESUME">Resume</a></li>
+          <li className="aboutMe"><a href="#ABOUTME">About Me</a></li>
+          <li className="contact"><a href="#CONTACT">Contact Me</a></li>
         </ul>
       </div>
       <div className="socialsContainer">
         <ul className="socials">
           <li className="linkedin">
-            <img className="linkedinIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/LI-In-Bug.png" href="https://www.linkedin.com/in/crlapples?trk=contact-info" />
+            <a href="https://www.linkedin.com/in/crlapples?trk=contact-info">
+              <img className="linkedinIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/LI-In-Bug.png" />
+            </a>
           </li>
           <li className="x">
-            <img className="xIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/logo-white.png" href="https://x.com/crlapples19" />
+            <a href="https://x.com/crlapples19">
+              <img className="xIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/logo-white.png" />
+            </a>
           </li>
           <li className="instagram">
-            <img className="instagramIcon" src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/instagram.1024x1024.png" href="https://www.instagram.com/crlapples19/" />
+            <a href="https://www.instagram.com/crlapples19/">
+              <img className="instagramIcon" src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/instagram.1024x1024.png" />
+            </a>
           </li>
           <li className="tiktok">
-            <img src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/tiktok.946x1024.png" href="https://www.tiktok.com/@crlapples?_t=ZP-8trUkMabx5b&_r=1" />
+            <a href="https://www.tiktok.com/@crlapples?_t=ZP-8trUkMabx5b&_r=1">
+              <img src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/tiktok.946x1024.png" />
+            </a>
           </li>
           <li className="youtube">
-            <img src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/youtube.1024x720.png" href="https://youtube.com/@codealchemy-crl?si=gbPEyEOHDn8zLNeL" />
+            <a href="https://youtube.com/@codealchemy-crl?si=gbPEyEOHDn8zLNeL">
+              <img src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/youtube.1024x720.png" />
+            </a>
           </li>
         </ul>
       </div>
       <div className="workLinksContainer">
         <ul className="workLinks">
           <li className="github">
-            <img className="githubIcon" src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/github.1024x979.png" href="https://www.github.com/crlapples" />
+            <a href="https://www.github.com/crlapples">
+              <img className="githubIcon" src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/github.1024x979.png" />
+            </a>
           </li>
           <li className="fiverr">
-            <img className="fiverrIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/fiverr-icon.png" href="https://www.fiverr.com/crlapples" />
+            <a href="https://www.fiverr.com/crlapples">
+              <img className="fiverrIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/fiverr-icon.png" />
+            </a>
           </li>
           <li className="upwork">
-            <img className="upworkIcon" src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/upwork.1024x1024.png" href="https://www.upwork.com/freelancers/~01df79cc1c51463359?mp_source=share" />
+            <a href="https://www.upwork.com/freelancers/~01df79cc1c51463359?mp_source=share">
+              <img className="upworkIcon" src="https://assets.onecompiler.app/42xjnjtme/438vu3zvd/upwork.1024x1024.png" />
+            </a>
           </li>
           <li className="reddit">
-            <img className="redditIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/reddit.1024x1024.png" href="https://www.reddit.com/user/Spiritual_Chart_204/" />
+            <a href="https://www.reddit.com/user/Spiritual_Chart_204/">
+              <img className="redditIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/reddit.1024x1024.png" />
+            </a>
           </li>
         </ul>
       </div>
@@ -79,7 +97,7 @@ const App = () => {
           <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
         </form>
       </div>
-    </div>
+    </main>
   );
 };
 
