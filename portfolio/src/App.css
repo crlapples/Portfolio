@@ -1,0 +1,202 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  left: 15px;
+  top: 20px;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-height: 250px;
+  max-width: 400px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.titleDesc {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.navBar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+  margin-bottom: 25px;
+}
+
+.navBar a {
+  color: black;
+  text-decoration: none;
+}
+
+.navBar li {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  background-color: white;
+  font-size: 20px;
+}
+
+.navBarContainer ul li:hover {
+  cursor: pointer;
+  background-color: darkgray;
+}
+
+.socials {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+.socials li img {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.socials li img:hover {
+  cursor: pointer;
+}
+
+.linkedin {
+  margin-top: 4px;
+  width: 64px;
+  height: 64px;
+}
+
+.x {
+  width: 64px;
+  height: 64px;
+}
+
+.instagram {
+  width: 64px;
+  height: 64px;
+}
+
+.tiktok {
+  width: 59.125;
+  height: 64px;
+  max-width: 59.125;
+}
+
+.youtube {
+  width: 91px;
+  height: 64px;
+  max-width: 91px;
+  margin-top: 8px;
+}
+  
+.workLinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  background-color: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.workLinks li img {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.workLinks li img:hover {
+  cursor: pointer;
+}
+
+.github {
+  width: 66.925px;
+  height: 64px;
+  max-width: 66.925px;
+}
+
+.fiverr {
+  width: 64px;
+  height: 64px;
+}
+
+.upwork {
+  width: 64px;
+  height: 64px;
+}
+
+.reddit {
+  width: 64px;
+  height: 64px;
+}
+  
+.achievementsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.achievement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.donateContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.donateDesc {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+form input[type="image"] {
+  border: none;
+}
+
+form img {
+  border: none;
+}
