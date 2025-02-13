@@ -32,7 +32,7 @@ const App = () => {
           </li>
           <li className="x">
             <a href="https://x.com/crlapples19">
-              <img className="xIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/logo-white.png" />
+              <img className="xIcon" src="https://assets.onecompiler.app/42xjnjtme/438za4x7t/x-social-media-logo-icon.png" />
             </a>
           </li>
           <li className="instagram">
