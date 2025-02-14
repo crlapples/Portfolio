@@ -71,7 +71,7 @@ const Home = () => {
             <div className="orderTerms">
               <p className="variedPrices">Starting at</p>
               <h2 className="price"></h2>
-              <p className="priceInfo"></p>
+              <p className="priceInfo">Excluding extras</p>
               <p className="time"></p>
             </div>
           </div>
