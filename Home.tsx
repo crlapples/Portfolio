@@ -77,6 +77,12 @@ const Home = () => {
               </ul>
               <p>You'll have a website that not only looks great but also helps grow your business. Plus, I'm committed to delivering a smooth and hassle-free experience. Your satisfaction is my priority.</p>
               <p>I'm just starting out, and I'd love for you to be one of our first clients. <strong>Act fast, this offer is available for a limited time only!</strong></p>
+              <p className="reasons"><strong>Why Choose Me?</strong></p>
+              <ul>
+                <li><strong>Professional & Custom Designs:</strong> My <strong>website development service</strong> is designed to help you <strong>establish a strong online presence</strong>, with features like <strong>mobile responsiveness, SEO optimization, and fast load speeds</strong>.</li>
+                <li><strong>User-Friendly Experience:</strong> I create <strong>easy-to-navigate, visually appealing websites</strong> that engage visitors and drive results.</li>
+                <li><strong>Dedicated Support:</strong> I'm here to help! Whether you need updates, guidance, or troubleshooting, I'll ensure you have full support throughout your journey.</li>
+              </ul>
             </div>
             <div className="seperatorLine" />
             <div className="orderTerms">
