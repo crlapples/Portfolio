@@ -179,6 +179,10 @@ body.dark-mode {
   border-radius: 5px;
 }
 
+.dark-mode .orderContainer {
+  border: 2px solid white;
+}
+
 .orderDetails {
   display: flex;
 }
@@ -194,6 +198,10 @@ body.dark-mode {
 
 .orderDesc ul {
   gap: 10px;
+}
+
+.reasons {
+  font-size: 23;
 }
 
 .seperatorLine {
