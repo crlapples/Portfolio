@@ -162,6 +162,11 @@ body.dark-mode {
   background-color: darkgray;
 }
 
+.offer {
+  font-size: 21px;
+  font-weight: bold;
+}
+
 .socials {
   list-style-type: none;
   display: flex;
