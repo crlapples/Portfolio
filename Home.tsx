@@ -75,7 +75,7 @@ const Home = () => {
               <p className="time"></p>
             </div>
           </div>
-          <button className="orderButton">Order</button>
+          <Link to="/Order"><button className="orderButton">Order</button></Link>
         </div>
         <div className="socialsContainer">
           <ul className="socials">
