@@ -66,13 +66,16 @@ const Home = () => {
         <div className="orderContainer">
           <div className="orderDetails">
             <div className="orderDesc">
-              <p></p>
+              <p className="discount">Get [20%] Off Your First Order – Limited Time Only!</p>
+              <p>Looking for a solution to [organize your schedule better]? Our [Product Name] is designed to help you [stay on top of your tasks effortlessly]—and to get you started, we're offering an exclusive 20% off your first order!
+                With features like:</p>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Real-time syncing for easy access anywhere</li>
+                <li>Simple interface for quick setup and use</li>
+                <li>Customizable options to meet your needs</li>
               </ul>
-              <p></p>
+              <p>You’ll experience a more organized day and increased productivity. Plus, we stand behind our product with a no-risk satisfaction guarantee—if you're not happy, we’ll make it right.</p>
+              <p>We’re just starting out, and we’d love to have you as one of the first to enjoy [Product Name]. Act fast—this offer is available for a limited time only!</p>
             </div>
             <div className="seperatorLine" />
             <div className="orderTerms">
