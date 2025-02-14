@@ -213,12 +213,18 @@ body.dark-mode {
 }
 
 .priceInfo {
+  margin-top: 5px;
   color: gray;
   font-size: 21px;
 }
 
 .time {
+  margin-top: 25px;
   font-size: 23px;
+}
+
+.orderButton {
+  
 }
 
 .socials {
