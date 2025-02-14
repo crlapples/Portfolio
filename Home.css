@@ -118,6 +118,10 @@ body.dark-mode {
   max-width: 400px;
 }
 
+.dark-mode .logo {
+  filter: invert(1) brightness(2);
+}
+
 .titleContainer {
   display: flex;
   flex-direction: column;
