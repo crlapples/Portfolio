@@ -66,6 +66,13 @@ const Home = () => {
         <div className="orderContainer">
           <div className="orderDetails">
             <div className="orderDesc">
+              <p></p>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <p></p>
             </div>
             <div className="seperatorLine" />
             <div className="orderTerms">
