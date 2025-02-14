@@ -1,22 +1,110 @@
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 .mainContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 35px;
-  margin-bottom: 175px;
+  width: 100%;
   position: relative;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
 .title {
   font-weight: bold;
   font-size: 30px;
+  margin-left: 35px;
+  margin-top: 75px;
+}
+
+.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 75px;
+  margin-right: 35px;
+}
+
+.themeP {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0; /* Hide the checkbox, but still clickable */
+  width: 60px; /* Match the width of the slider */
+  height: 34px; /* Match the height of the slider */
+  position: absolute; /* Make it cover the switch entirely */
+  z-index: 1; /* Ensure it’s on top of the slider */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.slider {
   position: absolute;
-  left: 10px;
-  margin-left: 10px;
-  margin-top: 15px;
-  top: 20px;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: gray;
+  transition: 0.4s;
+  border-radius: 34px;
+  z-index: 0; /* Slider is below the checkbox */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.switch input:checked + .slider {
+  background-color: lightgreen;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 175px;
 }
 
 .logoContainer {
@@ -41,7 +129,7 @@
 .titleDesc {
   font-size: 23px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .navBar {
@@ -56,7 +144,7 @@
 }
 
 .navBar a {
-  color: black;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -203,4 +291,8 @@ form input[type="image"] {
 
 form img {
   border: none;
+}
+
+.spacer {
+  height: 175px;
 }
