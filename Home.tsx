@@ -69,6 +69,7 @@ const Home = () => {
             </div>
             <div className="seperatorLine" />
             <div className="orderTerms">
+              <p className="variedPrices">Starting at</p>
               <h2 className="price"></h2>
               <p className="priceInfo"></p>
               <p className="time"></p>
