@@ -13,9 +13,6 @@ const Order = () => {
         <div className="logoContainer">
           <img className="logo" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/Gemini_Generated_Image_f55fiof55fiof55f%20(1).jpeg" />
         </div>
-        <header className="titleContainer">
-          <h1 className="titleDesc">crlapples' Software Developer Portfolio</h1>
-        </header>
         <div className="navBarContainer">
           <ul className="navBar">
             <li className="home"><Link to="/">Home</Link></li>
@@ -25,8 +22,12 @@ const Order = () => {
             <li className="testimonials"><Link to="/Testimonials">Reviews</Link></li>
             <li className="aboutMe"><Link to="/AboutMe">About Me</Link></li>
             <li className="contact"><Link to="/Contact">Contact Me</Link></li>
+            <li className="order"><Link to="/Order">Order Now</Link></li>
           </ul>
         </div>
+        <header className="titleContainer">
+          <h1 className="titleDesc">Your Website, Your Way. Let’s Build It!</h1>
+        </header>
       </div>
     </main>
   );
