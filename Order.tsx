@@ -4,9 +4,20 @@ import "./Order.css";
 
 const Order: React.FC = () => {
   const [selectedPages, setSelectedPages] = useState<string>("");
+  const [selectedHosting, setSelectedHosting] = useState<string>("");
+  const [selectedBackend, setSelectedBackend] = useState<string>("");
+  const [description, setDescription] = useState<string>("");
 
   const handlePages = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedPages(event.target.value);
+  };
+
+  const handleHosting = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedHosting(event.target.value);
+  };
+
+  const handleBackend = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedBackend(event.target.value);
   };
 
   return (
@@ -42,11 +53,30 @@ const Order: React.FC = () => {
                 <option value="2-5">Small business, 2-5</option>
                 <option value="5-10">Professional, 5-10</option>
               </select>
-              <label htmlFor="hosting">Need hosting?</label>
-              <select id="hosting" name="hosting">
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+              <label htmlFor="hosting">Need hosting?:</label>
+              <select id="hosting" name="hosting" value={selectedHosting} onChange={handleHosting}>
+                <option value="hosting-yes">Yes</option>
+                <option value="hosting-no">No</option>
               </select>
+              <label htmlFor="backend">Backend server included?:</label>
+              <select id="backend" name="backend" value={selectedBackend} onChange={handleBackend}>
+                <option value="backend-yes">Yes</option>
+                <option value="backend-no">No</option>
+              </select>
+            </div>
+            <div className="clientDescContainer">
+              <div className="clientDesc">
+                <label htmlFor="clientDescription">Website description:</label>
+                <textarea
+                  id="clientDescription"
+                  name="clientDescription"
+                  rows={12}
+                  cols={100}
+                  placeholder="Describe your website(E-commerce, CRM, blog.. etc.).."
+                  value={description}
+                  onChange={(e) => setDescription(e.target.value)}
+                />
+              </div>
             </div>
           </form>
         </div>
