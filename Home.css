@@ -224,7 +224,26 @@ body.dark-mode {
 }
 
 .orderButton {
-  
+  color: purple;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.dark-mode .orderButton {
+  background-color: black;
+  border: 2px solid white;
+}
+
+.orderButton:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.dark-mode .orderButton:hover {
+  cursor: pointer;
+  background-color: white;
 }
 
 .socials {
