@@ -88,8 +88,8 @@ const Home = () => {
             <div className="seperatorLine" />
             <div className="orderTerms">
               <p className="variedPrices">Starting at</p>
-              <h2 className="price"></h2>
-              <p className="priceInfo">Excluding extras</p>
+              <h2 className="price">$50</h2>
+              <p className="priceInfo">Excluding extras/A 30% deposit is required before work begins</p>
               <p className="time"></p>
             </div>
           </div>
