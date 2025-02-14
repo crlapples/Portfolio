@@ -53,12 +53,12 @@ body.dark-mode {
 }
 
 .switch input {
-  opacity: 0; /* Hide the checkbox, but still clickable */
-  width: 60px; /* Match the width of the slider */
-  height: 34px; /* Match the height of the slider */
-  position: absolute; /* Make it cover the switch entirely */
-  z-index: 1; /* Ensure it’s on top of the slider */
-  cursor: pointer; /* Show pointer cursor on hover */
+  opacity: 0;
+  width: 60px;
+  height: 34px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .slider {
@@ -71,7 +71,7 @@ body.dark-mode {
   background-color: gray;
   transition: 0.4s;
   border-radius: 34px;
-  z-index: 0; /* Slider is below the checkbox */
+  z-index: 0;
 }
 
 .slider:before {
@@ -295,4 +295,10 @@ form img {
 
 .spacer {
   height: 175px;
+}
+
+@media (max-width: 768px) {
+  .achievementsContainer {
+    overflow-x: auto;
+  }
 }
