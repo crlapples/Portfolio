@@ -66,8 +66,9 @@ const Home = () => {
         <div className="orderContainer">
           <div className="orderDetails">
             <div className="orderDesc">
-              <p className="discount">Get [20%] Off Your First Order – Limited Time Only!</p>
-              <p>Looking for a solution to [organize your schedule better]? Our [Product Name] is designed to help you [stay on top of your tasks effortlessly]—and to get you started, we're offering an exclusive 20% off your first order!
+              <p className="discount"><strong>Get 20% Off Your First Order – Limited Time Only!</strong></p>
+              <p>Looking for a solution to <strong>launch your online presence</strong>? My <strong>custom website development service</strong> is designed to help you <strong></strong>—and to get you started, we're offering an exclusive 20% off your first order!<br>
+                <br>
                 With features like:</p>
               <ul>
                 <li>Real-time syncing for easy access anywhere</li>
