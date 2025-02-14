@@ -41,13 +41,40 @@ const Home = () => {
         </header>
         <div className="navBarContainer">
           <ul className="navBar">
-            <li className="home"><a href="/">Home</a></li>
-            <li className="projects"><a href="/Projects">Projects</a></li>
-            <li className="skills"><a href="/Skills">Skills</a></li>
-            <li className="resume"><a href="/Resume">Resume</a></li>
-            <li className="aboutMe"><a href="/AboutMe">About Me</a></li>
-            <li className="contact"><a href="/Contact">Contact Me</a></li>
+            <li className="home"><Link to="/">Home</Link></li>
+            <li className="projects"><Link to="/Projects">Projects</Link></li>
+            <li className="skills"><Link to="/Skills">Skills</Link></li>
+            <li className="resume"><Link to="/Resume">Resume</Link></li>
+            <li className="testimonials"><Link to="/Testimonials">Testimonials</Link></li>
+            <li className="aboutMe"><Link to="/AboutMe">About Me</Link></li>
+            <li className="contact"><Link to="/Contact">Contact Me</Link></li>
           </ul>
+        </div>
+        <div className="offerContainer">
+          <p className="offer">I design and develop custom websites that fit your needs. Whether for business, e-commerce, or personal projects. Get a sleek, SEO-friendly, and user-focused site that stands out. Let’s build something great together!</p>
+        </div>
+        <div className="achievementsContainer">
+          <div className="achievement">
+            <h2 className="name">Total Hours Coding</h2>
+            <p className="value">3000</p>
+          </div>
+          <div className="achievement">
+            <h2 className="name">Projects Completed</h2>
+            <p className="value">3</p>
+          </div>
+        </div>
+        <div className="orderContainer">
+          <div className="orderDetails">
+            <div className="orderDesc">
+            </div>
+            <div className="seperatorLine" />
+            <div className="orderTerms">
+              <h2 className="price"></h2>
+              <p className="priceInfo"></p>
+              <p className="time"></p>
+            </div>
+          </div>
+          <button className="orderButton">Order</button>
         </div>
         <div className="socialsContainer">
           <ul className="socials">
@@ -101,16 +128,6 @@ const Home = () => {
               </a>
             </li>
           </ul>
-        </div>
-        <div className="achievementsContainer">
-          <div className="achievement">
-            <h2 className="name">Total Hours Coding</h2>
-            <p className="value">3000</p>
-          </div>
-          <div className="achievement">
-            <h2 className="name">Projects Completed</h2>
-            <p className="value">3</p>
-          </div>
         </div>
         <div className="donateContainer">
           <p className="donateDesc">Support My Journey</p>
