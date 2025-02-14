@@ -143,7 +143,6 @@ body.dark-mode {
   gap: 15px;
   margin: 0;
   padding: 0;
-  background-color: none;
   margin-bottom: 25px;
 }
 
@@ -157,7 +156,6 @@ body.dark-mode {
   padding-right: 15px;
   padding-top: 5px;
   padding-bottom: 7px;
-  background-color: white;
   font-size: 20px;
 }
 
@@ -178,7 +176,6 @@ body.dark-mode {
   gap: 15px;
   margin: 0;
   padding: 0;
-  background-color: none;
 }
 
 .socials li img {
@@ -225,7 +222,6 @@ body.dark-mode {
   justify-content: center;
   gap: 15px;
   padding: 0;
-  background-color: none;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 0px;
@@ -277,6 +273,12 @@ body.dark-mode {
   border: 2px solid black;
   border-radius: 5px;
   padding: 10px;
+  color: black;
+}
+
+.dark-mode .achievement {
+  border: 2px solid white;
+  color: white;
 }
 
 .donateContainer {
