@@ -169,6 +169,58 @@ body.dark-mode {
   font-weight: bold;
 }
 
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.orderDetails {
+  display: flex;
+}
+
+.orderDesc {
+  margin: 15px;
+  font-size: 19px;
+}
+
+.seperatorLine {
+  width: 1px;
+  height: 95%;
+  background-color: black;
+}
+
+.dark-mode .seperatorLine {
+  background-color: white;
+}
+
+.orderTerms {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.variedPrices {
+  margin-bottom: 3px;
+}
+
+.price {
+  font-size: 27px;
+}
+
+.priceInfo {
+  color: gray;
+  font-size: 21px;
+}
+
+.time {
+  font-size: 23px;
+}
+
 .socials {
   list-style-type: none;
   display: flex;
