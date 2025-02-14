@@ -186,6 +186,7 @@ body.dark-mode {
 .orderDesc {
   margin: 15px;
   font-size: 19px;
+  width: 450px;
 }
 
 .seperatorLine {
@@ -202,6 +203,7 @@ body.dark-mode {
   margin: 15px;
   display: flex;
   flex-direction: column;
+  width: 149px;
 }
 
 .variedPrices {
