@@ -67,16 +67,16 @@ const Home = () => {
           <div className="orderDetails">
             <div className="orderDesc">
               <p className="discount"><strong>Get 20% Off Your First Order – Limited Time Only!</strong></p>
-              <p>Looking for a solution to <strong>launch your online presence</strong>? My <strong>custom website development service</strong> is designed to help you <strong></strong>—and to get you started, we're offering an exclusive 20% off your first order!<br>
+              <p>Looking for a solution to <strong>launch your online presence</strong>? My <strong>custom website development service</strong> is designed to help you <strong>get a professional, high-quality website with ease.</strong> To get you started, I'm offering an exclusive 20% off your first order!<br>
                 <br>
                 With features like:</p>
               <ul>
-                <li>Real-time syncing for easy access anywhere</li>
-                <li>Simple interface for quick setup and use</li>
-                <li>Customizable options to meet your needs</li>
+                <li>Responsive design that looks great on any device</li>
+                <li>SEO optimization to help your site rank higher</li>
+                <li>Fast, secure, and user-friendly website setup</li>
               </ul>
-              <p>You’ll experience a more organized day and increased productivity. Plus, we stand behind our product with a no-risk satisfaction guarantee—if you're not happy, we’ll make it right.</p>
-              <p>We’re just starting out, and we’d love to have you as one of the first to enjoy [Product Name]. Act fast—this offer is available for a limited time only!</p>
+              <p>You'll have a website that not only looks great but also helps grow your business. Plus, I'm committed to delivering a smooth and hassle-free experience. Your satisfaction is my priority.</p>
+              <p>I'm just starting out, and I'd love for you to be one of our first clients. <strong>Act fast, this offer is available for a limited time only!</strong></p>
             </div>
             <div className="seperatorLine" />
             <div className="orderTerms">
