@@ -36,9 +36,6 @@ const Home = () => {
         <div className="logoContainer">
           <img className="logo" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/Gemini_Generated_Image_f55fiof55fiof55f%20(1).jpeg" />
         </div>
-        <header className="titleContainer">
-          <h1 className="titleDesc">crlapples' Software Developer Portfolio</h1>
-        </header>
         <div className="navBarContainer">
           <ul className="navBar">
             <li className="home"><Link to="/">Home</Link></li>
@@ -48,8 +45,12 @@ const Home = () => {
             <li className="testimonials"><Link to="/Testimonials">Reviews</Link></li>
             <li className="aboutMe"><Link to="/AboutMe">About Me</Link></li>
             <li className="contact"><Link to="/Contact">Contact Me</Link></li>
+            <li className="order"><Link to="/Order">Order Now</Link></li>
           </ul>
         </div>
+        <header className="titleContainer">
+          <h1 className="titleDesc">crlapples' Software Developer Portfolio</h1>
+        </header>
         <div className="offerContainer">
           <p className="offer">I design and develop custom websites that fit your needs. Whether for business, e-commerce, or personal projects. Get a sleek, SEO-friendly, and user-focused site that stands out. Let’s build something great together!</p>
         </div>
