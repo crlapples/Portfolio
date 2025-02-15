@@ -7,9 +7,11 @@ const Order: React.FC = () => {
   const [selectedPages, setSelectedPages] = useState<string>("");
   const [selectedHosting, setSelectedHosting] = useState<string>("");
   const [selectedBackend, setSelectedBackend] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
   const [description, setDescription] = useState<string>("");
   const [totalPrice, setTotalPrice] = useState<number>(0.0);
   const [isDiscounted, setIsDiscounted] = useState<boolean>(false);
+  const [status, setStatus] = useState<string>("");
 
   const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 }, hosting: { "hosting-yes": 25, "hosting-no": 0 }, backend: { "backend-yes": 300, "backend-no": 0 }};
                   
@@ -40,6 +42,33 @@ const Order: React.FC = () => {
     setIsDiscounted(event.target.checked);
   };
 
+  const handleEmail = (event: React.ChangeEvent<HTMLInputEvent>) => {
+    setEmail(event.target.value);
+  };
+
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+
+    const formData = new FormData();
+    formData.append(email);
+    formData.append(selectedPages);
+    formData.append(selectedHosting);
+    formData.append(selectedBackend);
+    formData.append(description);
+    formData.append(totalPrice);
+
+    const response = await fetch('https://formspree.io/f/meoerkjq', {
+      method: "POST",
+      body: formData
+    });
+
+    if (response.ok) {
+      setStatus("success");
+    } else {
+      setStatus("fail");
+    }
+  };
+
   return (
     <main className="mainContainer">
       <div className="options">
@@ -66,6 +95,15 @@ const Order: React.FC = () => {
         </header>
         <div className="formContainer">
           <form>
+            <div className="emailContainer">
+              <input
+                type="email"
+                id="emailInput"
+                value={email}
+                onChange={handleEmail}
+                placeholder="Email"
+              />
+            </div>
             <div className="groupInput">
               <label htmlFor="pages">Choose page amount:</label>
               <select id="pages" name="pages" value={selectedPages} onChange={handlePages}>
