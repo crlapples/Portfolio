@@ -94,6 +94,7 @@ const Order: React.FC = () => {
                 <p className="priceTitle">Total Price</p>
                 <p className="priceNumber">${totalPrice}</p>
               </div>
+              <div className="seperatorLine" />
               <div className="depositContainer">
                 <p className="priceTitle">Deposit</p>
                 <p className="priceNumber">${(totalPrice * 0.3).toFixed(2)}</p>
