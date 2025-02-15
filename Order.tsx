@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import "./Order.css";
 
 const Order: React.FC = () => {
@@ -7,6 +8,7 @@ const Order: React.FC = () => {
   const [selectedHosting, setSelectedHosting] = useState<string>("");
   const [selectedBackend, setSelectedBackend] = useState<string>("");
   const [description, setDescription] = useState<string>("");
+  const [totalPrice, setTotalPrice] = useState<float>(0.0);
 
   const handlePages = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedPages(event.target.value);
@@ -77,6 +79,19 @@ const Order: React.FC = () => {
                   onChange={(e) => setDescription(e.target.value)}
                 />
               </div>
+            </div>
+            <div className="paypal">
+              <PayPalScriptProvider options={{ "client-id": "yourclientid" }}>
+                <PayPalButtons 
+                  createOrder={(data, actions) => {
+                    return actions.orders.create({
+                      purchase_units: [{ amount: { value: (totalPrice * 0.3).toFixed(2) } }]
+                    });
+                  }}
+                  onApprove={(data, actions) => {
+                    return actions.order?.capture()
+                </PayPalButtons>
+              </PayPalScriptProvider>
             </div>
           </form>
         </div>
