@@ -26,6 +26,12 @@ const Order: React.FC = () => {
     setTotalPrice(calculatedPrice);
   }, [selectedPages, selectedHosting, selectedBackend, isDiscounted]);
 
+  useEffect(() => {
+    if (status === "success") {
+      window.location.href = "/Thankyou";
+    }
+  }, [status]);
+
   const handlePages = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedPages(event.target.value);
   };
@@ -44,29 +50,6 @@ const Order: React.FC = () => {
 
   const handleEmail = (event: React.ChangeEvent<HTMLInputEvent>) => {
     setEmail(event.target.value);
-  };
-
-  const handleSubmit = async (event: React.FormEvent) => {
-    event.preventDefault();
-
-    const formData = new FormData();
-    formData.append(email);
-    formData.append(selectedPages);
-    formData.append(selectedHosting);
-    formData.append(selectedBackend);
-    formData.append(description);
-    formData.append(totalPrice);
-
-    const response = await fetch('https://formspree.io/f/meoerkjq', {
-      method: "POST",
-      body: formData
-    });
-
-    if (response.ok) {
-      setStatus("success");
-    } else {
-      setStatus("fail");
-    }
   };
 
   return (
@@ -169,7 +152,30 @@ const Order: React.FC = () => {
                     if (actions.order) {
                       return actions.order.capture().then((details) => {
                         if (details.payer && details.payer.name) {
-                          alert(`Transaction completed by ${details.payer.name.given_name}`);
+                          
+                          const formData = new FormData();
+                          formData.append("email", email);
+                          formData.append("pages", selectedPages);
+                          formData.append("hosting", selectedHosting);
+                          formData.append("backend", selectedBackend);
+                          formData.append("description", description);
+                          formData.append("totalPrice", totalPrice.toString());
+
+                          fetch('https://formspree.io/f/meoerkjq', {
+                            method: "POST",
+                            body: formData
+                          })
+                          .then(response => {
+                            if (response.ok) {
+                              setStatus("success");
+                            } else {
+                              setStatus("fail");
+                            }
+                          })
+                          .catch(error => {
+                            console.error("Error sending form data", error);
+                            setStatus("fail");
+                          });
                         } else {
                           console.error("Payer details are missing");
                         }
