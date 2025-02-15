@@ -8,7 +8,14 @@ const Order: React.FC = () => {
   const [selectedHosting, setSelectedHosting] = useState<string>("");
   const [selectedBackend, setSelectedBackend] = useState<string>("");
   const [description, setDescription] = useState<string>("");
-  const [totalPrice, setTotalPrice] = useState<float>(0.0);
+  const [totalPrice, setTotalPrice] = useState<number>(0.0);
+
+  useEffect(() => {
+    const pagesPrice = prices.pages[selectedPages] || 0;
+    const hostingPrice = prices.hosting[selectedHosting] || 0;
+    const backendPrice = prices.backend[selectedBackend] || 0;
+    setTotalPrice(pagesPrice + hostingPrice + backendPrice
+  }, [selectedPages, selectedHosting, selectedBackend]);
 
   const handlePages = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedPages(event.target.value);
