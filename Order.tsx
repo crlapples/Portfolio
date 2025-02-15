@@ -10,11 +10,14 @@ const Order: React.FC = () => {
   const [description, setDescription] = useState<string>("");
   const [totalPrice, setTotalPrice] = useState<number>(0.0);
 
+  const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 },
+                  
+
   useEffect(() => {
     const pagesPrice = prices.pages[selectedPages] || 0;
     const hostingPrice = prices.hosting[selectedHosting] || 0;
     const backendPrice = prices.backend[selectedBackend] || 0;
-    setTotalPrice(pagesPrice + hostingPrice + backendPrice
+    setTotalPrice(pagesPrice + hostingPrice + backendPrice);
   }, [selectedPages, selectedHosting, selectedBackend]);
 
   const handlePages = (event: React.ChangeEvent<HTMLSelectElement>) => {
