@@ -10,13 +10,13 @@ const Order: React.FC = () => {
   const [description, setDescription] = useState<string>("");
   const [totalPrice, setTotalPrice] = useState<number>(0.0);
 
-  const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 },
+  const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 }, hosting: { "hosting-yes": 100, "hosting-no": 0 }, backend: { "backend-yes": 300, "backend-no": 0 }};
                   
 
   useEffect(() => {
-    const pagesPrice = prices.pages[selectedPages] || 0;
-    const hostingPrice = prices.hosting[selectedHosting] || 0;
-    const backendPrice = prices.backend[selectedBackend] || 0;
+    const pagesPrice = prices.pages[selectedPages as keyof typeof prices.pages] || 0;
+    const hostingPrice = prices.hosting[selectedHosting as keyof typeof prices.hosting] || 0;
+    const backendPrice = prices.backend[selectedBackend as keyof typeof prices.backend] || 0;
     setTotalPrice(pagesPrice + hostingPrice + backendPrice);
   }, [selectedPages, selectedHosting, selectedBackend]);
 
@@ -94,16 +94,29 @@ const Order: React.FC = () => {
               <PayPalScriptProvider options={{ "client-id": "yourclientid" }}>
                 <PayPalButtons 
                   createOrder={(data, actions) => {
-                    return actions.orders.create({
-                      purchase_units: [{ amount: { value: (totalPrice * 0.3).toFixed(2) } }]
+                    return actions.order.create({
+                      intent: "CAPTURE",
+                      purchase_units: [{ amount: { currency_code: "USD", value: (totalPrice * 0.3).toFixed(2) } }]
                     });
                   }}
-                  onApprove={(data, actions) => {
-                    return actions.order?.capture().then((details) => {
-                      alert(`Transaction completed by ${details.payer.name.given_name}`);
-                    });
+                  onApprove={(data, actions): Promise<void> => {
+                    if (actions.order) {
+                      return actions.order.capture().then((details) => {
+                        if (details.payer && details.payer.name) {
+                          alert(`Transaction completed by ${details.payer.name.given_name}`);
+                        } else {
+                          console.error("Payer details are missing");
+                        }
+                      }).catch((error) => {
+                        console.error("Payment failed", error);
+                        return Promise.resolve();
+                      });
+                    } else {
+                      console.error("Order not found");
+                      return Promise.resolve();
+                    }
                   }}
-                </PayPalButtons>
+                />
               </PayPalScriptProvider>
             </div>
           </form>
