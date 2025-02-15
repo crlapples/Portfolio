@@ -36,18 +36,64 @@ const Home = () => {
         <div className="logoContainer">
           <img className="logo" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/Gemini_Generated_Image_f55fiof55fiof55f%20(1).jpeg" />
         </div>
+        <div className="navBarContainer">
+          <ul className="navBar">
+            <li className="home"><Link to="/">Home</Link></li>
+            <li className="projects"><Link to="/Projects">Projects</Link></li>
+            <li className="skills"><Link to="/Skills">Skills</Link></li>
+            <li className="resume"><Link to="/Resume">Resume</Link></li>
+            <li className="testimonials"><Link to="/Testimonials">Reviews</Link></li>
+            <li className="aboutMe"><Link to="/AboutMe">About Me</Link></li>
+            <li className="contact"><Link to="/Contact">Contact Me</Link></li>
+            <li className="order"><Link to="/Order">Order Now</Link></li>
+          </ul>
+        </div>
         <header className="titleContainer">
           <h1 className="titleDesc">crlapples' Software Developer Portfolio</h1>
         </header>
-        <div className="navBarContainer">
-          <ul className="navBar">
-            <li className="home"><a href="/">Home</a></li>
-            <li className="projects"><a href="/Projects">Projects</a></li>
-            <li className="skills"><a href="/Skills">Skills</a></li>
-            <li className="resume"><a href="/Resume">Resume</a></li>
-            <li className="aboutMe"><a href="/AboutMe">About Me</a></li>
-            <li className="contact"><a href="/Contact">Contact Me</a></li>
-          </ul>
+        <div className="offerContainer">
+          <p className="offer">I design and develop custom websites that fit your needs. Whether for business, e-commerce, or personal projects. Get a sleek, SEO-friendly, and user-focused site that stands out. Let’s build something great together!</p>
+        </div>
+        <div className="achievementsContainer">
+          <div className="achievement">
+            <h2 className="name">Total Hours Coding</h2>
+            <p className="value">3000</p>
+          </div>
+          <div className="achievement">
+            <h2 className="name">Projects Completed</h2>
+            <p className="value">3</p>
+          </div>
+        </div>
+        <div className="orderContainer">
+          <div className="orderDetails">
+            <div className="orderDesc">
+              <p className="discount"><strong>Get 20% Off Your First Order – Limited Time Only!</strong></p>
+              <p>Looking for a solution to <strong>launch your online presence</strong>? My <strong>custom website development service</strong> is designed to help you <strong>get a professional, high-quality website with ease.</strong> To get you started, I'm offering an exclusive 20% off your first order!<br />
+                <br />
+                With features like:</p>
+              <ul>
+                <li>Responsive design that looks great on any device</li>
+                <li>SEO optimization to help your site rank higher</li>
+                <li>Fast, secure, and user-friendly website setup</li>
+              </ul>
+              <p>You'll have a website that not only looks great but also helps grow your business. Plus, I'm committed to delivering a smooth and hassle-free experience. Your satisfaction is my priority.</p>
+              <p>I'm just starting out, and I'd love for you to be one of our first clients. <strong>Act fast, this offer is available for a limited time only!</strong></p>
+              <p className="reasons"><strong>Why Choose Me?</strong></p>
+              <ul>
+                <li><strong>Professional & Custom Designs:</strong> My <strong>website development service</strong> is designed to help you <strong>establish a strong online presence</strong>, with features like <strong>mobile responsiveness, SEO optimization, and fast load speeds</strong>.</li>
+                <li><strong>User-Friendly Experience:</strong> I create <strong>easy-to-navigate, visually appealing websites</strong> that engage visitors and drive results.</li>
+                <li><strong>Dedicated Support:</strong> I'm here to help! Whether you need updates, guidance, or troubleshooting, I'll ensure you have full support throughout your journey.</li>
+              </ul>
+            </div>
+            <div className="seperatorLine" />
+            <div className="orderTerms">
+              <p className="variedPrices">Starting at</p>
+              <h2 className="price">$50</h2>
+              <p className="priceInfo">Excluding extras/A 30% deposit is required before work begins</p>
+              <p className="time"></p>
+            </div>
+          </div>
+          <Link to="/Order"><button className="orderButton">Place Order</button></Link>
         </div>
         <div className="socialsContainer">
           <ul className="socials">
@@ -101,16 +147,6 @@ const Home = () => {
               </a>
             </li>
           </ul>
-        </div>
-        <div className="achievementsContainer">
-          <div className="achievement">
-            <h2 className="name">Total Hours Coding</h2>
-            <p className="value">3000</p>
-          </div>
-          <div className="achievement">
-            <h2 className="name">Projects Completed</h2>
-            <p className="value">3</p>
-          </div>
         </div>
         <div className="donateContainer">
           <p className="donateDesc">Support My Journey</p>

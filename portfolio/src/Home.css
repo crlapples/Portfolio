@@ -53,12 +53,12 @@ body.dark-mode {
 }
 
 .switch input {
-  opacity: 0; /* Hide the checkbox, but still clickable */
-  width: 60px; /* Match the width of the slider */
-  height: 34px; /* Match the height of the slider */
-  position: absolute; /* Make it cover the switch entirely */
-  z-index: 1; /* Ensure it’s on top of the slider */
-  cursor: pointer; /* Show pointer cursor on hover */
+  opacity: 0;
+  width: 60px;
+  height: 34px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .slider {
@@ -71,7 +71,7 @@ body.dark-mode {
   background-color: gray;
   transition: 0.4s;
   border-radius: 34px;
-  z-index: 0; /* Slider is below the checkbox */
+  z-index: 0;
 }
 
 .slider:before {
@@ -118,6 +118,10 @@ body.dark-mode {
   max-width: 400px;
 }
 
+.dark-mode .logo {
+  filter: invert(1) brightness(2);
+}
+
 .titleContainer {
   display: flex;
   flex-direction: column;
@@ -139,7 +143,6 @@ body.dark-mode {
   gap: 15px;
   margin: 0;
   padding: 0;
-  background-color: none;
   margin-bottom: 25px;
 }
 
@@ -153,13 +156,111 @@ body.dark-mode {
   padding-right: 15px;
   padding-top: 5px;
   padding-bottom: 7px;
-  background-color: white;
   font-size: 20px;
 }
 
 .navBarContainer ul li:hover {
   cursor: pointer;
   background-color: darkgray;
+}
+
+.offer {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.dark-mode .orderContainer {
+  border: 2px solid white;
+}
+
+.orderDetails {
+  display: flex;
+}
+
+.orderDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 15px;
+  font-size: 19px;
+  width: 450px;
+}
+
+.orderDesc ul {
+  gap: 10px;
+}
+
+.reasons {
+  font-size: 23;
+}
+
+.seperatorLine {
+  width: 1px;
+  height: 95%;
+  background-color: black;
+}
+
+.dark-mode .seperatorLine {
+  background-color: white;
+}
+
+.orderTerms {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 149px;
+}
+
+.variedPrices {
+  margin-bottom: 3px;
+}
+
+.price {
+  font-size: 27px;
+}
+
+.priceInfo {
+  margin-top: 5px;
+  color: gray;
+  font-size: 21px;
+}
+
+.time {
+  margin-top: 25px;
+  font-size: 23px;
+}
+
+.orderButton {
+  color: purple;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.dark-mode .orderButton {
+  background-color: black;
+  border: 2px solid white;
+}
+
+.orderButton:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.dark-mode .orderButton:hover {
+  cursor: pointer;
+  background-color: white;
 }
 
 .socials {
@@ -169,7 +270,6 @@ body.dark-mode {
   gap: 15px;
   margin: 0;
   padding: 0;
-  background-color: none;
 }
 
 .socials li img {
@@ -216,7 +316,6 @@ body.dark-mode {
   justify-content: center;
   gap: 15px;
   padding: 0;
-  background-color: none;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 0px;
@@ -268,6 +367,12 @@ body.dark-mode {
   border: 2px solid black;
   border-radius: 5px;
   padding: 10px;
+  color: black;
+}
+
+.dark-mode .achievement {
+  border: 2px solid white;
+  color: white;
 }
 
 .donateContainer {
@@ -295,4 +400,10 @@ form img {
 
 .spacer {
   height: 175px;
+}
+
+@media (max-width: 768px) {
+  .achievementsContainer {
+    overflow-x: auto;
+  }
 }
