@@ -12,7 +12,6 @@ const Order: React.FC = () => {
 
   const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 }, hosting: { "hosting-yes": 25, "hosting-no": 0 }, backend: { "backend-yes": 300, "backend-no": 0 }};
                   
-
   useEffect(() => {
     const pagesPrice = prices.pages[selectedPages as keyof typeof prices.pages] || 0;
     const hostingPrice = prices.hosting[selectedHosting as keyof typeof prices.hosting] || 0;
@@ -88,6 +87,16 @@ const Order: React.FC = () => {
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
                 />
+              </div>
+            </div>
+            <div className="priceContainer">
+              <div className="totalPriceContainer">
+                <p className="priceTitle">Total Price</p>
+                <p className="priceNumber">${totalPrice}</p>
+              </div>
+              <div className="depositContainer">
+                <p className="priceTitle">Deposit</p>
+                <p className="priceNumber">${(totalPrice * 0.3).toFixed(2)}</p>
               </div>
             </div>
             <div className="paypal">
