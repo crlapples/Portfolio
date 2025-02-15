@@ -10,7 +10,7 @@ const Order: React.FC = () => {
   const [description, setDescription] = useState<string>("");
   const [totalPrice, setTotalPrice] = useState<number>(0.0);
 
-  const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 }, hosting: { "hosting-yes": 100, "hosting-no": 0 }, backend: { "backend-yes": 300, "backend-no": 0 }};
+  const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 }, hosting: { "hosting-yes": 25, "hosting-no": 0 }, backend: { "backend-yes": 300, "backend-no": 0 }};
                   
 
   useEffect(() => {
