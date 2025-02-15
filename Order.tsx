@@ -9,6 +9,7 @@ const Order: React.FC = () => {
   const [selectedBackend, setSelectedBackend] = useState<string>("");
   const [description, setDescription] = useState<string>("");
   const [totalPrice, setTotalPrice] = useState<number>(0.0);
+  const [isDiscounted, setIsDiscounted] = useState<boolean>(false);
 
   const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 }, hosting: { "hosting-yes": 25, "hosting-no": 0 }, backend: { "backend-yes": 300, "backend-no": 0 }};
                   
@@ -16,8 +17,12 @@ const Order: React.FC = () => {
     const pagesPrice = prices.pages[selectedPages as keyof typeof prices.pages] || 0;
     const hostingPrice = prices.hosting[selectedHosting as keyof typeof prices.hosting] || 0;
     const backendPrice = prices.backend[selectedBackend as keyof typeof prices.backend] || 0;
-    setTotalPrice(pagesPrice + hostingPrice + backendPrice);
-  }, [selectedPages, selectedHosting, selectedBackend]);
+    let calculatedPrice = pagesPrice + hostingPrice + backendPrice;
+    if (isDiscounted) {
+      calculatedPrice = (calculatedPrice * 0.8).toFixed(2);
+    }
+    setTotalPrice(calculatedPrice);
+  }, [selectedPages, selectedHosting, selectedBackend, isDiscounted]);
 
   const handlePages = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedPages(event.target.value);
@@ -29,6 +34,10 @@ const Order: React.FC = () => {
 
   const handleBackend = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedBackend(event.target.value);
+  };
+
+  const handleDiscount = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setIsDiscounted(event.target.checked);
   };
 
   return (
@@ -88,6 +97,15 @@ const Order: React.FC = () => {
                   onChange={(e) => setDescription(e.target.value)}
                 />
               </div>
+            </div>
+            <div className="discountContainer">
+              <input
+                type="checkbox"
+                id="discountCheckbox"
+                value={isDiscounted}
+                onChange={handleDiscount}
+              />
+              <label htmlFor="discountCheckbox">Apply 20% first-time user discount</label>
             </div>
             <div className="priceContainer">
               <div className="totalPriceContainer">
