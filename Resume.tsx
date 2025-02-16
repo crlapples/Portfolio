@@ -31,9 +31,9 @@ const Resume: React.FC = () => {
         <div className="resumeContainer">
           <iframe
             className="resume"
-            src=""
+            src="https://docs.google.com/document/d/1iy7ym7Oda6__luBKYuS0l4lMys6fcBVvVMly4t5cs9A/preview"
           />
-          <a href="" download>Download Resume</a>
+          <a href="https://docs.google.com/document/d/1iy7ym7Oda6__luBKYuS0l4lMys6fcBVvVMly4t5cs9A/export?format=pdf" download>Download Resume</a>
         </div>
       </div>
     </main>
