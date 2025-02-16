@@ -31,15 +31,15 @@ const Projects: React.FC = () => {
         <div className="projectContainer">
           <div className="projectContentContainer">
             <div className="imgContainer">
-              <Link to=""><img className="marketplaceImg" src="" /></Link>
+              <Link to=""><img className="marketplaceImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Marketplace1.png" /></Link>
               <label className="imgLabel">Homepage of e-commerce example website</label>
             </div>
             <div className="imgContainer">
-              <Link to=""><img className="marketplaceImg" src="" /></Link>
+              <Link to=""><img className="marketplaceImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Marketplace2.png" /></Link>
               <label className="imgLabel">Account login of e-commerce website</label>
             </div>
             <div className="imgContainer">
-              <Link to=""><img className="marketplaceImg" src="" /></Link>
+              <Link to=""><img className="marketplaceImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Marketplace3.png" /></Link>
               <label className="imgLabel">Checkout page with cart of e-commerce example</label>
             </div>
           </div>
@@ -52,15 +52,15 @@ const Projects: React.FC = () => {
         <div className="projectContainer">
           <div className="projectContentContainer">
             <div className="imgContainer">
-              <Link to=""><img className="sudokuImg" src="" /></Link>
+              <Link to=""><img className="sudokuImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Sudoku1.png" /></Link>
               <label className="imgLabel">Sudoku variant game generator website</label>
             </div>
             <div className="imgContainer">
-              <Link to=""><img className="sudokuImg" src="" /></Link>
+              <Link to=""><img className="sudokuImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Sudoku3.png" /></Link>
               <label className="imgLabel">Sudoku variant game generator website</label>
             </div>
             <div className="imgContainer">
-              <Link to=""><img className="sudokuImg" src="" /></Link>
+              <Link to=""><img className="sudokuImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Sudoku2.png" /></Link>
               <label className="imgLabel">Sudoku variant game generator website</label>
             </div>
           </div>
@@ -73,15 +73,15 @@ const Projects: React.FC = () => {
         <div className="projectContainer">
           <div className="projectContentContainer">
             <div className="imgContainer">
-              <Link to=""><img className="knightsImg" src="" /></Link>
+              <Link to=""><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></Link>
               <label className="imgLabel">RPG tycoon Android app mobile game</label>
             </div>
             <div className="imgContainer">
-              <Link to=""><img className="knightsImg" src="" /></Link>
+              <Link to=""><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></Link>
               <label className="imgLabel">Combat for Android app mobile game</label>
             </div>
             <div className="imgContainer">
-              <Link to=""><img className="knightsImg" src="" /></Link>
+              <Link to=""><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></Link>
               <label className="imgLabel">GUI example in Android app mobile game</label>
             </div>
           </div>
