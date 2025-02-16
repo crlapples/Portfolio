@@ -123,6 +123,9 @@ const Skills: React.FC = () => {
               </div>
             </div>
           </div>
+          <div className="skillsSummary">
+            <p>These are the core skills I’ve acquired through applied projects and continuous learning. I’m passionate about building efficient, scalable solutions and always open to exploring new technologies.</p>
+          </div>
         </div>
       </div>
     </main>
