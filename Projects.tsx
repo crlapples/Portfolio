@@ -31,57 +31,57 @@ const Projects: React.FC = () => {
         <div className="projectContainer">
           <div className="projectContentContainer">
             <div className="imgContainer">
-              <a href="" target="_blank" rel="noopener noreferrer"><img className="marketplaceImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Marketplace1.png" /></a>
+              <a href="https://crlapples.github.io/Marketplace-project/" target="_blank" rel="noopener noreferrer"><img className="marketplaceImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Marketplace1.png" /></a>
               <label className="imgLabel">Homepage of e-commerce example website</label>
             </div>
             <div className="imgContainer">
-              <a href="" target="_blank" rel="noopener noreferrer"><img className="marketplaceImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Marketplace2.png" /></a>
+              <a href="https://crlapples.github.io/Marketplace-project/login.html" target="_blank" rel="noopener noreferrer"><img className="marketplaceImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Marketplace2.png" /></a>
               <label className="imgLabel">Account login of e-commerce website</label>
             </div>
             <div className="imgContainer">
-              <a href="" target="_blank" rel="noopener noreferrer"><img className="marketplaceImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Marketplace3.png" /></a>
+              <a href="https://crlapples.github.io/Marketplace-project/checkout.html" target="_blank" rel="noopener noreferrer"><img className="marketplaceImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Marketplace3.png" /></a>
               <label className="imgLabel">Checkout page with cart of e-commerce example</label>
             </div>
           </div>
           <p className="projectDetails">My e-commerce project website is completed in HTML, CSS, and JavaScript. The example includes recommended items on the homepage, along with accounts integration, cart, search, categories, individual item pages, checkout, responsive design, dynamically added items to handle new inventory, and persistent items.</p>
           <div className="links">
-            <p>:</p><a href="" target="_blank" rel="noopener noreferrer"></a>
-            <p>:</p><a href="" target="_blank" rel="noopener noreferrer"></a>
+            <p>Live URL: </p><a href="https://crlapples.github.io/Marketplace-project/" target="_blank" rel="noopener noreferrer">Marketplace Project</a>
+            <p>Github URL: </p><a href="https://github.com/crlapples/Marketplace-project" target="_blank" rel="noopener noreferrer">Repository</a>
           </div>
         </div>
         <div className="projectContainer">
           <div className="projectContentContainer">
             <div className="imgContainer">
-              <a href="" target="_blank" rel="noopener noreferrer"><img className="sudokuImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Sudoku1.png" /></a>
+              <a href="https://crlapples.github.io/Sudoku-project/" target="_blank" rel="noopener noreferrer"><img className="sudokuImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Sudoku1.png" /></a>
               <label className="imgLabel">Sudoku variant game generator website</label>
             </div>
             <div className="imgContainer">
-              <a href="" target="_blank" rel="noopener noreferrer"><img className="sudokuImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Sudoku3.png" /></a>
+              <a href="https://crlapples.github.io/Sudoku-project/" target="_blank" rel="noopener noreferrer"><img className="sudokuImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Sudoku3.png" /></a>
               <label className="imgLabel">Sudoku variant game generator website</label>
             </div>
             <div className="imgContainer">
-              <a href="" target="_blank" rel="noopener noreferrer"><img className="sudokuImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Sudoku2.png" /></a>
+              <a href="https://crlapples.github.io/Sudoku-project/" target="_blank" rel="noopener noreferrer"><img className="sudokuImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Sudoku2.png" /></a>
               <label className="imgLabel">Sudoku variant game generator website</label>
             </div>
           </div>
           <p className="projectDetails">Sudoku project is completed in React. It includes an algorithm and button that generates a puzzle, a timer for speed running, and a win notification when the game is solved.</p>
           <div className="links">
-            <p>:</p><a href="" target="_blank" rel="noopener noreferrer"></a>
-            <p>:</p><a href="" target="_blank" rel="noopener noreferrer"></a>
+            <p>Live URL: </p><a href="https://crlapples.github.io/Sudoku-project/" target="_blank" rel="noopener noreferrer">Sudoku Project</a>
+            <p>Github URL: </p><a href="https://github.com/crlapples/Sudoku-project" target="_blank" rel="noopener noreferrer"></a>
           </div>
         </div>
         <div className="projectContainer">
           <div className="projectContentContainer">
             <div className="imgContainer">
-              <a href="" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></a>
+              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></a>
               <label className="imgLabel">RPG tycoon Android app mobile game</label>
             </div>
             <div className="imgContainer">
-              <a href="" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></a>
+              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></a>
               <label className="imgLabel">Combat for Android app mobile game</label>
             </div>
             <div className="imgContainer">
-              <a href="" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></a>
+              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></a>
               <label className="imgLabel">GUI example in Android app mobile game</label>
             </div>
           </div>
