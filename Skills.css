@@ -132,8 +132,30 @@ body.dark-mode {
 .skillsListContainer {
   display: grid;
   grid-template-rows: repeat(5);
+  row-gap: 25px;
 }
 
 .skills {
   width: 128px;
+  height: 128px;
+}
+
+.skills img {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.sql {
+  max-width: 47.5px;
+}
+
+.skillName {
+  font-size: 21px;
+}
+
+.softSkillsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
