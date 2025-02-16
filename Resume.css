@@ -101,4 +101,29 @@ body.dark-mode {
   background-color: darkgray;
 }
 
-  
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.resumeContainer a {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: gray;
+  font-size: 19px;
+}
+
+.dark-mode .resume {
+  filter: invert(1);
+}
+
+.dark-mode .resumeContainer a {
+  border: 2px solid white;
+}
