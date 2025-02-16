@@ -32,26 +32,47 @@ const Skills: React.FC = () => {
           <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/html-icon.png" />
             <label className="skillName">HTML5</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/css-icon.png" />
             <label className="skillName">CSS3</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/javascript-programming-language-icon.png" />
             <label className="skillName">JavaScript</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/react-js-icon.png" />
             <label className="skillName">React.js</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/typescript-programming-language-icon.png" />
             <label className="skillName">TypeScript</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/node-js-icon.png" />
             <label className="skillName">Node.js</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/database-icon.png" />
             <label className="skillName">SQL</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/java-programming-language-icon.png" />
             <label className="skillName">Java</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/file-xml-color-green-icon.png" />
             <label className="skillName">XML</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/godot-game-engine-icon.png" />
             <label className="skillName">Godot Engine</label>
+          </div>
+          <div className="skills">
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/godot-game-engine-icon.png" />
             <label className="skillName">GDScript</label>
+          </div>
           </div>
         </div>
       </div>
