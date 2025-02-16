@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
               <label className="imgLabel">Checkout page with cart of e-commerce example</label>
             </div>
           </div>
-          <p className="projectDetails">My e-commerce example includes recommended items on the homepage, along with accounts integration, cart, search, categories, individual item pages, checkout, responsive design, dynamically added items to handle new inventory, and persistent items.</p>
+          <p className="projectDetails">My e-commerce project website is completed in HTML, CSS, and JavaScript. The example includes recommended items on the homepage, along with accounts integration, cart, search, categories, individual item pages, checkout, responsive design, dynamically added items to handle new inventory, and persistent items.</p>
           <div className="links">
             <p>:</p><Link to=""></Link>
             <p>:</p><Link to=""></Link>
@@ -64,7 +64,7 @@ const Projects: React.FC = () => {
               <label className="imgLabel">Sudoku variant game generator website</label>
             </div>
           </div>
-          <p className="projectDetails"></p>
+          <p className="projectDetails">Sudoku project is completed in React. It includes an algorithm and button that generates a puzzle, a timer for speed running, and a win notification when the game is solved.</p>
           <div className="links">
             <p>:</p><Link to=""></Link>
             <p>:</p><Link to=""></Link>
@@ -85,11 +85,7 @@ const Projects: React.FC = () => {
               <label className="imgLabel">GUI example in Android app mobile game</label>
             </div>
           </div>
-          <p className="projectDetails"></p>
-          <div className="links">
-            <p>:</p><Link to=""></Link>
-            <p>:</p><Link to=""></Link>
-          </div>
+          <p className="projectDetails">Knight RPG Tycoon is an Android mobile game done using Godot in GDScript. It includes real-time combat, random affixed items, item stores, AI controlled units, character leveling, knight recruiting, raid boss, saving/loading, music and sounds, audio settings, and menu.</p>
         </div>
       </div>
     </main>
