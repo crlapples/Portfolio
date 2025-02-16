@@ -97,6 +97,30 @@ const Skills: React.FC = () => {
                 <img src="" />
                 <label className="skillName">Resilience</label>
               </div>
+              <div className="skills">
+                <img src="" />
+                <label className="skillName">Time Management</label>
+              </div>
+              <div className="skills">
+                <img src="" />
+                <label className="skillName">Work Ethic</label>
+              </div>
+              <div className="skills">
+                <img src="" />
+                <label className="skillName">Attention to Detail</label>
+              </div>
+              <div className="skills">
+                <img src="" />
+                <label className="skillName">Self-Awareness</label>
+              </div>
+              <div className="skills">
+                <img src="" />
+                <label className="skillName">Adaptability</label>
+              </div>
+              <div className="skills">
+                <img src="" />
+                <label className="skillName">Open-minded</label>
+              </div>
             </div>
           </div>
         </div>
