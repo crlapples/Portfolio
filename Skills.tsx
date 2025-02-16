@@ -48,6 +48,10 @@ const Skills: React.FC = () => {
             <label className="skillName"></label>
             <img src="" />
             <label className="skillName"></label>
+            <img src="" />
+            <label className="skillName"></label>
+            <img src="" />
+            <label className="skillName"></label>
           </div>
         </div>
       </div>
