@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
               <label className="imgLabel">Checkout page with cart of e-commerce example</label>
             </div>
           </div>
-          <p className="projectDetails">My e-commerce example includes recommended items on the homepage, along with accounts integration, cart, search, categories, individual item pages, checkout, responsive design, dynamically added items to handle new inventory, and </p>
+          <p className="projectDetails">My e-commerce example includes recommended items on the homepage, along with accounts integration, cart, search, categories, individual item pages, checkout, responsive design, dynamically added items to handle new inventory, and persistent items.</p>
           <div className="links">
             <p>:</p><Link to=""></Link>
             <p>:</p><Link to=""></Link>
