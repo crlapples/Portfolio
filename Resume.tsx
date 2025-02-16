@@ -26,8 +26,15 @@ const Resume: React.FC = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">crlapples' Projects</h1>
+          <h1 className="titleDesc">crlapples' Resume</h1>
         </header>
+        <div className="resumeContainer">
+          <iframe
+            className="resume"
+            src=""
+          />
+          <a href="" download>Download Resume</a>
+        </div>
       </div>
     </main>
   );
