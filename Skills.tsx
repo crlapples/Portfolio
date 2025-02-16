@@ -73,7 +73,6 @@ const Skills: React.FC = () => {
             <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/godot-game-engine-icon.png" />
             <label className="skillName">GDScript</label>
           </div>
-          </div>
         </div>
       </div>
     </main>
