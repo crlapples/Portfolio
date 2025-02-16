@@ -59,7 +59,7 @@ const Skills: React.FC = () => {
                 <label className="skillName">Node.js</label>
               </div>
               <div className="skills">
-                <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/database-icon.png" />
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/sql-database-generic.380x512.png" />
                 <label className="skillName">SQL</label>
               </div>
               <div className="skills">
@@ -86,39 +86,39 @@ const Skills: React.FC = () => {
             </div>
             <div className="skillsListContainer">
               <div className="skills">
-                <img src="" />
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/business-communication-icon.png" />
                 <label className="skillName">Teamwork</label>
               </div>
               <div className="skills">
-                <img src="" />
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/opportunity-icon.png" />
                 <label className="skillName">Flexibility</label>
               </div>
               <div className="skills">
-                <img src="" />
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/compression-icon.png" />
                 <label className="skillName">Resilience</label>
               </div>
               <div className="skills">
-                <img src="" />
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/clock-line-icon.png" />
                 <label className="skillName">Time Management</label>
               </div>
               <div className="skills">
-                <img src="" />
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/scale-icon.png" />
                 <label className="skillName">Work Ethic</label>
               </div>
               <div className="skills">
-                <img src="" />
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/search-image-photo-icon.png" />
                 <label className="skillName">Attention to Detail</label>
               </div>
               <div className="skills">
-                <img src="" />
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/positive-thinking-attitude-icon.png" />
                 <label className="skillName">Self-Awareness</label>
               </div>
               <div className="skills">
-                <img src="" />
-                <label className="skillName">Adaptable</label>
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/plan-icon.png" />
+                <label className="skillName">Adaptability</label>
               </div>
               <div className="skills">
-                <img src="" />
+                <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/mind-map-icon.png" />
                 <label className="skillName">Open-minded</label>
               </div>
             </div>
@@ -130,3 +130,4 @@ const Skills: React.FC = () => {
 };
 
 export default Skills;
+                
