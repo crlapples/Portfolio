@@ -60,7 +60,7 @@ const Skills: React.FC = () => {
               </div>
               <div className="skills">
                 <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/sql-database-generic.380x512.png" />
-                <label className="skillName">SQL</label>
+                <label className="skillName sql">SQL</label>
               </div>
               <div className="skills">
                 <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/java-programming-language-icon.png" />
