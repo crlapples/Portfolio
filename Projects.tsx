@@ -29,45 +29,61 @@ const Projects: React.FC = () => {
           <h1 className="titleDesc">crlapples' Projects</h1>
         </header>
         <div className="projectContainer">
-          <div className="imgContainer">
-            <Link to=""><img className="marketplaceImg" src="" /></Link>
-            <label className="imgLabel">Homepage of e-commerce example website</label>
+          <div className="projectContentContainer">
+            <div className="imgContainer">
+              <Link to=""><img className="marketplaceImg" src="" /></Link>
+              <label className="imgLabel">Homepage of e-commerce example website</label>
+            </div>
+            <div className="imgContainer">
+              <Link to=""><img className="marketplaceImg" src="" /></Link>
+              <label className="imgLabel">Account login of e-commerce website</label>
+            </div>
+            <div className="imgContainer">
+              <Link to=""><img className="marketplaceImg" src="" /></Link>
+              <label className="imgLabel">Checkout page with cart of e-commerce example</label>
+            </div>
           </div>
-          <div className="imgContainer">
-            <Link to=""><img className="marketplaceImg" src="" /></Link>
-            <label className="imgLabel">Account login of e-commerce website</label>
-          </div>
-          <div className="imgContainer">
-            <Link to=""><img className="marketplaceImg" src="" /></Link>
-            <label className="imgLabel">Checkout page with cart of e-commerce example</label>
-          </div>
-        </div>
-        <div className="projectContainer">
-          <div className="imgContainer">
-            <Link to=""><img className="sudokuImg" src="" /></Link>
-            <label className="imgLabel">Sudoku variant game generator website</label>
-          </div>
-          <div className="imgContainer">
-            <Link to=""><img className="sudokuImg" src="" /></Link>
-            <label className="imgLabel">Sudoku variant game generator website</label>
-          </div>
-          <div className="imgContainer">
-            <Link to=""><img className="sudokuImg" src="" /></Link>
-            <label className="imgLabel">Sudoku variant game generator website</label>
+          <p className="projectDetails">My e-commerce example includes recommended items on the homepage, along with accounts integration, cart, search, categories, individual item pages, checkout, responsive design, dynamically added items to handle new inventory, and </p>
+          <div className="links">
+            <p>:</p><Link to=""></Link>
+            <p>:</p><Link to=""></Link>
           </div>
         </div>
         <div className="projectContainer">
-          <div className="imgContainer">
-            <Link to=""><img className="knightsImg" src="" /></Link>
-            <label className="imgLabel">RPG tycoon Android app mobile game</label>
+          <div className="projectContentContainer">
+            <div className="imgContainer">
+              <Link to=""><img className="sudokuImg" src="" /></Link>
+              <label className="imgLabel">Sudoku variant game generator website</label>
+            </div>
+            <div className="imgContainer">
+              <Link to=""><img className="sudokuImg" src="" /></Link>
+              <label className="imgLabel">Sudoku variant game generator website</label>
+            </div>
+            <div className="imgContainer">
+              <Link to=""><img className="sudokuImg" src="" /></Link>
+              <label className="imgLabel">Sudoku variant game generator website</label>
+            </div>
           </div>
-          <div className="imgContainer">
-            <Link to=""><img className="knightsImg" src="" /></Link>
-            <label className="imgLabel">Combat for Android app mobile game</label>
+          <p className="projectDetails"></p>
+          <div className="links">
+            <p>:</p><Link to=""></Link>
+            <p>:</p><Link to=""></Link>
           </div>
-          <div className="imgContainer">
-            <Link to=""><img className="knightsImg" src="" /></Link>
-            <label className="imgLabel">GUI example in Android app mobile game</label>
+        </div>
+        <div className="projectContainer">
+          <div className="projectContentContainer">
+            <div className="imgContainer">
+              <Link to=""><img className="knightsImg" src="" /></Link>
+              <label className="imgLabel">RPG tycoon Android app mobile game</label>
+            </div>
+            <div className="imgContainer">
+              <Link to=""><img className="knightsImg" src="" /></Link>
+              <label className="imgLabel">Combat for Android app mobile game</label>
+            </div>
+            <div className="imgContainer">
+              <Link to=""><img className="knightsImg" src="" /></Link>
+              <label className="imgLabel">GUI example in Android app mobile game</label>
+            </div>
           </div>
         </div>
       </div>
