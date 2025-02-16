@@ -85,6 +85,11 @@ const Projects: React.FC = () => {
               <label className="imgLabel">GUI example in Android app mobile game</label>
             </div>
           </div>
+          <p className="projectDetails"></p>
+          <div className="links">
+            <p>:</p><Link to=""></Link>
+            <p>:</p><Link to=""></Link>
+          </div>
         </div>
       </div>
     </main>
