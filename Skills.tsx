@@ -115,7 +115,7 @@ const Skills: React.FC = () => {
               </div>
               <div className="skills">
                 <img src="" />
-                <label className="skillName">Adaptability</label>
+                <label className="skillName">Adaptable</label>
               </div>
               <div className="skills">
                 <img src="" />
