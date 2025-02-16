@@ -159,3 +159,14 @@ body.dark-mode {
   justify-content: center;
   align-items: center;
 }
+
+.skillsSummary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillsSummary p {
+  font-size: 19px;
+}
