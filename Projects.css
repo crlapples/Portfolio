@@ -180,4 +180,16 @@ body.dark-mode {
 
 .imgContainer {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.projectDetails {
+  width: 40%
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
