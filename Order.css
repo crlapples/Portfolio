@@ -164,3 +164,78 @@ body.dark-mode {
   background-color: darkgray;
 }
 
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.emailContainer input {
+  width: 100px;
+}
+
+.groupInput {
+  display: flex;
+  gap: 15px;
+}
+
+.clientDescContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.clientDesc textarea {
+  width: 500;
+  height: 375;
+}
+
+.discountContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.totalPriceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.priceTitle {
+  color: green;
+  font-size: 23px;
+}
+
+.priceNumber {
+  font-size: 22px;
+}
+
+.seperatorLine {
+  width: 1px;
+  height: 95%;
+  border: 2px solid black;
+}
+
+.dark-mode .seperatorLine {
+  border: 2px solid white;
+}
+
+.depositContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
