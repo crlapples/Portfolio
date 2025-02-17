@@ -485,9 +485,18 @@ form img {
     overflow-x: auto;
   }
 
+  .achievement {
+    position: relative;
+  }
+
   .achievement h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .achievement p {
+    position: absolute;
+    bottom: 7px;
   }
 }
