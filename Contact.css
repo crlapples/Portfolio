@@ -100,3 +100,45 @@ body.dark-mode {
   cursor: pointer;
   background-color: darkgray;
 }
+
+.formWithInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.formWithInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  gap: 25px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  gap: 5px;
+}
+
+.title {
+  font-size: 23px;
+}
+
+.content {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
