@@ -107,6 +107,14 @@ body.dark-mode {
 }
 
 @media (max-width: 768px) {
+  .title {
+    width: 75px;
+  }
+
+  .theme {
+    flex-direction: column;
+  }
+  
   .navBarContainer {
     overflow-x: auto;
     -ms-overflow-style: none;
