@@ -142,3 +142,17 @@ body.dark-mode {
   font-size: 25px;
   margin-bottom: 35px;
 }
+
+@media (max-width: 768px) {
+  .navBarContainer {
+    overflow-x: auto;
+  }
+
+  .form {
+    width: 65%;
+  }
+
+  .info {
+    width: 25%;
+  }
+}
