@@ -115,3 +115,13 @@ body.dark-mode {
     transform: translateX(50%);
     gap: 15px;
 }
+
+@media (max-width: 768px) {
+  .navBarContainer {
+    overflow-x: auto;
+  }
+
+  .aboutMeContainer {
+    width: 90%
+  }
+}
