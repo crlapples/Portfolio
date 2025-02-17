@@ -55,7 +55,7 @@ const Testimonials = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">Transaction for Your Website Completed</h1>
+          <h1 className="titleDesc">crlapples' Reviews</h1>
         </header>
         <div className="testimonials">
           <p>Be the first one to leave your review here!</p>
