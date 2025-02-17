@@ -136,12 +136,6 @@ body.dark-mode {
   margin-bottom: 25px;
 }
 
-.navBarContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .navBar {
   list-style-type: none;
   display: flex;
