@@ -12,6 +12,35 @@ const Order: React.FC = () => {
   const [totalPrice, setTotalPrice] = useState<number>(0.0);
   const [isDiscounted, setIsDiscounted] = useState<boolean>(false);
   const [status, setStatus] = useState<string>("");
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
+    const savedTheme = localStorage.getItem("isDarkMode");
+    return savedTheme ? JSON.parse(savedTheme) : false;
+  });
+
+  useEffect(() => {
+    const applyTheme = (darkMode: boolean) => {
+      if (isDarkMode) {
+        document.body.classList.add("dark-mode");
+        document.body.classList.remove("light-mode");
+      } else {
+        document.body.classList.add("light-mode");
+        document.body.classList.remove("dark-mode");
+      }
+    };
+
+    applyTheme(isDarkMode);
+  }, [isDarkMode]);
+
+  useEffect(() => {
+    const handleStorageUpdate = (event: StorageEvent) => {
+      if (event.key === "isDarkMode") {
+        setIsDarkMode(event.newValue ? JSON.parse(event.newValue) : false;
+      }
+    };
+
+    window.addEventListener("storage", handleStorageUpdate);
+    return () => window.removeEventListener("storage", handleStorageUpdate);
+  }, []);
 
   const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 }, hosting: { "hosting-yes": 25, "hosting-no": 0 }, backend: { "backend-yes": 300, "backend-no": 0 }};
                   
