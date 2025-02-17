@@ -55,7 +55,7 @@ const AboutMe: React.FC = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">crlapples' Projects</h1>
+          <h1 className="titleDesc">About Me</h1>
         </header>
         <div className="aboutMeContainer">
           <div className="introduction">
