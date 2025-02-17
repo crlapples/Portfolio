@@ -56,7 +56,7 @@ const Home = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">crlapples' Software Developer Portfolio</h1>
+          <h1 className="titleDesc"><span style="color: purple">crlapples'</span> Software Developer Portfolio</h1>
         </header>
         <div className="offerContainer">
           <p className="offer">I design and develop custom websites that fit your needs. Whether for business, e-commerce, or personal projects. Get a sleek, SEO-friendly, and user-focused site that stands out. Let’s build something great together!</p>
