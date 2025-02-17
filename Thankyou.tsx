@@ -55,7 +55,7 @@ const Thankyou = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">Transaction For Your Website Completed</h1>
+          <h1 className="titleDesc">Transaction for Your Website Completed</h1>
         </header>
         <div className="thanksContainer">
           <p className="thankyou">Thank You</p>
