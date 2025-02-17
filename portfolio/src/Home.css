@@ -423,7 +423,7 @@ form img {
 
 @media (max-width: 768px) {
   .options {
-    height: 60px;
+    height: 80px;
   }
   
   .logo {
@@ -453,6 +453,7 @@ form img {
     overflow-x: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    max-width: 420px;
   }
 
   .navBarContainer::-webkit-scrollbar {
