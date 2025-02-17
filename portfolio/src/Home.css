@@ -139,6 +139,7 @@ body.dark-mode {
 .navBar {
   list-style-type: none;
   display: flex;
+  justify-content: center;
   gap: 5px;
   margin: 0;
   padding: 0;
@@ -452,6 +453,10 @@ form img {
 
   .navBarContainer::-webkit-scrollbar {
     display: none;
+  }
+
+  .navBar {
+    justify-content: flex-start;
   }
 
   .offer {
