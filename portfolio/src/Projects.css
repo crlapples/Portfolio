@@ -132,7 +132,6 @@ body.dark-mode {
 }
 
 @media (max-width: 768px) {
-  .title {
   .logo {
     width: 50%;
   }
