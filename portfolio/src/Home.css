@@ -485,7 +485,9 @@ form img {
     overflow-x: auto;
   }
 
-  .achievement {
-    width: 25%
+  .achievement h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
