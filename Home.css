@@ -403,8 +403,20 @@ form img {
 }
 
 @media (max-width: 768px) {
-  .navBarContaner {
+  .navBarContainer {
     overflow-x: auto;
+  }
+
+  .offer {
+    width: 85%;
+  }
+
+  .orderDesc {
+    width: 65%;
+  }
+
+  .orderTerms {
+    width: 25%;
   }
   
   .achievementsContainer {
