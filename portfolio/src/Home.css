@@ -422,6 +422,10 @@ form img {
 }
 
 @media (max-width: 768px) {
+  .options {
+    height: 60px;
+  }
+  
   .logo {
     width: 50%;
   }
