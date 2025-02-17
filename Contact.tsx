@@ -3,6 +3,28 @@ import { Link } from 'react-router-dom';
 import "./Contact.css";
 
 const Contact: React.FC = () => {
+  const [status, setStatus] = useState<string>("");
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
+
+  const handleSubmit = async () => {
+    const formData = new FormData();
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("message", message);
+
+    await fetch("https://formspree.io/f/xzzdkbny", {
+      method: "POST",
+      body: formData
+    });
+    
+    if (response.ok) {
+      setStatus("Thank you for contacting me!");
+    } else {
+      setStatus("Something went wrong, failed to send message");
+    }
+  };
 
   return (
     <main className="mainContainer">
@@ -26,8 +48,49 @@ const Contact: React.FC = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">crlapples' Projects</h1>
+          <h1 className="titleDesc">Contact Me</h1>
         </header>
+        <div className="formWithInfoContainer">
+          <div className="formWithInfo">
+            <div className="form">
+              <form onSubmit="handleSubmit">
+                <input
+                  type="text"
+                  id="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  type="email"
+                  id="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Email"
+                  required
+                />
+                <textarea
+                  id="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
+                />
+                <button type="submit">Send</button>
+              </form>
+            </div>
+            <div className="seperatorLine" />
+            <div className="info">
+              <p className="title">Email</p>
+              <p className="content">crlapples19@gmail.com</p>
+              <p className="title">Discord</p>
+              <p className="content"></p>
+              <p className="title"></p>
+              <p className="content"></p>
+            </div>
+          </div>
+          {status && <p>{status}</p>}
+        </div>
       </div>
     </main>
   );
