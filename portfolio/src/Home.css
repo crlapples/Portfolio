@@ -427,6 +427,10 @@ form img {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    width: 50%;
+  }
+  
   .title {
     width: 75px;
   }
@@ -447,6 +451,10 @@ form img {
 
   .offer {
     width: 85%;
+  }
+
+  .orderContainer {
+    width: 95%;
   }
 
   .orderDesc {
