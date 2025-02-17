@@ -403,6 +403,10 @@ form img {
 }
 
 @media (max-width: 768px) {
+  .navBarContaner {
+    overflow-x: auto;
+  }
+  
   .achievementsContainer {
     overflow-x: auto;
   }
