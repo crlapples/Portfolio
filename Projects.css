@@ -169,7 +169,7 @@ body.dark-mode {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px!
+  gap: 15px;
 }
 
 .projectContentContainer {
@@ -192,4 +192,18 @@ body.dark-mode {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .navBarContainer {
+    overflow-x: auto;
+  }
+
+  .projectContentContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .projectDetails {
+    width: 75%;
+  }
 }
