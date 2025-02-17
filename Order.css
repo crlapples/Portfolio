@@ -239,3 +239,17 @@ body.dark-mode {
   align-items: center;
   gap: 15px;
 }
+
+@media (max-width: 768px) {
+  .navBarContainer {
+    overflow-x: auto;
+  }
+
+  .formContainer {
+    width: 90%;
+  }
+
+  .groupInput {
+    flex-direction: column;
+  }
+}
