@@ -7,6 +7,35 @@ const Contact: React.FC = () => {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
+    const savedTheme = localStorage.getItem("isDarkMode");
+    return savedTheme ? JSON.parse(savedTheme) : false;
+  });
+
+  useEffect(() => {
+    const applyTheme = (darkMode: boolean) => {
+      if (isDarkMode) {
+        document.body.classList.add("dark-mode");
+        document.body.classList.remove("light-mode");
+      } else {
+        document.body.classList.add("light-mode");
+        document.body.classList.remove("dark-mode");
+      }
+    };
+
+    applyTheme(isDarkMode);
+  }, [isDarkMode]);
+
+  useEffect(() => {
+    const handleStorageUpdate = (event: StorageEvent) => {
+      if (event.key === "isDarkMode") {
+        setIsDarkMode(event.newValue ? JSON.parse(event.newValue) : false;
+      }
+    };
+
+    window.addEventListener("storage", handleStorageUpdate);
+    return () => window.removeEventListener("storage", handleStorageUpdate);
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
