@@ -55,7 +55,7 @@ const Skills: React.FC = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">crlapples' Projects</h1>
+          <h1 className="titleDesc">crlapples' Skills</h1>
         </header>
         <div classMame="skillsContainer">
           <div className="technicalSkillsContainer">
