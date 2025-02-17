@@ -81,12 +81,12 @@ const Contact: React.FC = () => {
             </div>
             <div className="seperatorLine" />
             <div className="info">
-              <p className="title">Email</p>
+              <p className="title">Name:</p>
+              <p className="content">Christopher Richard Lee</p>
+              <p className="title">Email:</p>
               <p className="content">crlapples19@gmail.com</p>
-              <p className="title">Discord</p>
-              <p className="content"></p>
-              <p className="title"></p>
-              <p className="content"></p>
+              <p className="title">Discord:</p>
+              <p className="content">https://discord.gg/WC48vPpH</p>
             </div>
           </div>
           {status && <p>{status}</p>}
