@@ -127,3 +127,14 @@ body.dark-mode {
 .dark-mode .resumeContainer a {
   border: 2px solid white;
 }
+
+@media (max-width: 768px) {
+  .navBarContainer {
+    overflow-x: auto;
+  }
+
+  .resume {
+    width: 90%;
+    height: auto;
+  }
+}
