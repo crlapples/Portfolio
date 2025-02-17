@@ -170,3 +170,17 @@ body.dark-mode {
 .skillsSummary p {
   font-size: 19px;
 }
+
+@media (max-width: 768px) {
+  .navBarContainer {
+    overflow-x: auto;
+  }
+
+  .skillsListContainer {
+    grid-template-rows: repeat(3);
+  }
+
+  .skillsSummary {
+    width: 75%;
+  }
+}
