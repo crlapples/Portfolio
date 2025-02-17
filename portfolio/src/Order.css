@@ -241,12 +241,27 @@ body.dark-mode {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    width: 50%;
+  }
+  
   .title {
     width: 75px;
+    margin-top: 0px;
+    margin-left: 5px;
+    transform: scale(0.6);
+  }
+
+  .titleDesc {
+    width: 75%;
   }
 
   .theme {
     flex-direction: column;
+    margin-top: 0px;
+    margin-right: 5px;
+    transform: scale(0.6);
+    gap: 3px;
   }
   
   .navBarContainer {
@@ -257,6 +272,10 @@ body.dark-mode {
 
   .navBarContainer::-webkit-scrollbar {
     display: none;
+  }
+
+  .navBar {
+    justify-content: flex-start;
   }
 
   .formContainer {
