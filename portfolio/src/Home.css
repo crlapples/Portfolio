@@ -240,8 +240,9 @@ body.dark-mode {
   margin-bottom: 0px;
 }
 
-.price {
+.priceHome {
   font-size: 35px;
+  color: green;
 }
 
 .priceInfo {
