@@ -8,19 +8,26 @@ const Contact: React.FC = () => {
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
     const formData = new FormData();
     formData.append("name", name);
     formData.append("email", email);
     formData.append("message", message);
 
-    await fetch("https://formspree.io/f/xzzdkbny", {
+    const response = await fetch("https://formspree.io/f/xzzdkbny", {
       method: "POST",
-      body: formData
+      headers: { "Accept": "application/json",
+                "Content-Type": "application/json" },
+      body: JSON.stringify(formData)
     });
     
     if (response.ok) {
       setStatus("Thank you for contacting me!");
+      setName("");
+      setEmail("");
+      setMessage("");
     } else {
       setStatus("Something went wrong, failed to send message");
     }
@@ -86,7 +93,7 @@ const Contact: React.FC = () => {
               <p className="title">Email:</p>
               <p className="content">crlapples19@gmail.com</p>
               <p className="title">Discord:</p>
-              <p className="content">https://discord.gg/WC48vPpH</p>
+              <p className="content"><a href="https://discord.gg/WC48vPpH">Invitation</a></p>
             </div>
           </div>
           {status && <p>{status}</p>}
