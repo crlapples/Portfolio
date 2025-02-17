@@ -97,7 +97,7 @@ const Home = () => {
               <p className="variedPrices">Starting at</p>
               <h2 className="price">$50</h2>
               <p className="priceInfo">Excluding extras/A 30% deposit is required before work begins</p>
-              <p className="time"></p>
+              <p className="time">Estimated delivery time: 5 days to 30 days</p>
             </div>
           </div>
           <Link to="/Order"><button className="orderButton">Place Order</button></Link>
