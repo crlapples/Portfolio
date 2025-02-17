@@ -28,7 +28,7 @@ body.dark-mode {
   font-weight: bold;
   font-size: 30px;
   margin-left: 35px;
-  margin-top: 75px;
+  margin-top: 85px;
 }
 
 .theme {
@@ -136,14 +136,20 @@ body.dark-mode {
   margin-bottom: 35px;
 }
 
+.navBarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .navBar {
   list-style-type: none;
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  gap: 5px;
   margin: 0;
   padding: 0;
   margin-bottom: 25px;
+  width: 100%;
 }
 
 .navBar a {
@@ -152,10 +158,7 @@ body.dark-mode {
 }
 
 .navBar li {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 5px;
-  padding-bottom: 7px;
+  padding: 5px 15px;
   font-size: 20px;
 }
 
@@ -164,9 +167,15 @@ body.dark-mode {
   background-color: darkgray;
 }
 
+.testimonials {
+  margin-top: 0 !important;
+}
+
 .offer {
   font-size: 21px;
   font-weight: bold;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 .orderContainer {
@@ -175,6 +184,7 @@ body.dark-mode {
   justify-content: center;
   align-items: center;
   width: 600px;
+  padding: 50px;
   border: 2px solid black;
   border-radius: 5px;
 }
@@ -205,9 +215,10 @@ body.dark-mode {
 }
 
 .seperatorLine {
-  width: 1px;
-  height: 95%;
+  width: 2px;
+  height: 1000px;
   background-color: black;
+  margin-top: 100px;
 }
 
 .dark-mode .seperatorLine {
@@ -218,15 +229,16 @@ body.dark-mode {
   margin: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 149px;
 }
 
 .variedPrices {
-  margin-bottom: 3px;
+  margin-bottom: 0px;
 }
 
 .price {
-  font-size: 27px;
+  font-size: 35px;
 }
 
 .priceInfo {
@@ -241,11 +253,15 @@ body.dark-mode {
 }
 
 .orderButton {
-  color: purple;
+  color: yellow;
   border: 2px solid black;
   background-color: white;
-  font-size: 21px;
+  font-size: 23px;
   font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .dark-mode .orderButton {
@@ -270,6 +286,7 @@ body.dark-mode {
   gap: 15px;
   margin: 0;
   padding: 0;
+  margin-left: 20px;
 }
 
 .socials li img {
@@ -386,7 +403,7 @@ body.dark-mode {
 
 .donateDesc {
   color: green;
-  font-size: 18px;
+  font-size: 27px;
   font-weight: bold;
 }
 
@@ -396,6 +413,7 @@ form input[type="image"] {
 
 form img {
   border: none;
+  transform: scale(2);
 }
 
 .spacer {
@@ -403,6 +421,36 @@ form img {
 }
 
 @media (max-width: 768px) {
+  .title {
+    width: 75px;
+  }
+
+  .theme {
+    flex-direction: column;
+  }
+  
+  .navBarContainer {
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .navBarContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .offer {
+    width: 85%;
+  }
+
+  .orderDesc {
+    width: 65%;
+  }
+
+  .orderTerms {
+    width: 25%;
+  }
+  
   .achievementsContainer {
     overflow-x: auto;
   }

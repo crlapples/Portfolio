@@ -101,74 +101,9 @@ body.dark-mode {
   background-color: darkgray;
 }
 
-.skillsContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 35px;
-}
-
-.technicalSkillsContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.skillsCategory p {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 5px;
-  border: 2px solid black;
-}
-
-.dark-mode .skillsCategory p {
-  border: 2px solid white;
-}
-
-.skillsListContainer {
-  display: grid;
-  grid-template-rows: repeat(5);
-  row-gap: 25px;
-}
-
-.skills {
-  width: 128px;
-  height: 128px;
-}
-
-.skills img {
-  max-width: 64px;
-  max-height: 64px;
-}
-
-.sql {
-  max-width: 47.5px;
-}
-
-.skillName {
-  font-size: 21px;
-}
-
-.softSkillsContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.skillsSummary {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.skillsSummary p {
-  font-size: 19px;
+.testimonials {
+  font-size: 25px;
+  margin-top: 50px;
 }
 
 @media (max-width: 768px) {
@@ -188,13 +123,5 @@ body.dark-mode {
 
   .navBarContainer::-webkit-scrollbar {
     display: none;
-  }
-
-  .skillsListContainer {
-    grid-template-rows: repeat(3);
-  }
-
-  .skillsSummary {
-    width: 75%;
   }
 }

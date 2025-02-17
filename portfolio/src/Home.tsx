@@ -4,10 +4,17 @@ import "./Home.css";
 
 const Home = () => {
   const [randomProject, setRandomProject] = useState<string>("");
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
+    const savedTheme = localStorage.getItem("isDarkMode");
+    return savedTheme ? JSON.parse(savedTheme) : false;
+  });
 
   const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
+    setIsDarkMode((prevMode) => {
+      const newMode = !prevMode;
+      localStorage.setItem("isDarkMode", JSON.stringify(newMode));
+      return newMode;
+    });
   };
 
   useEffect(() => {
@@ -40,7 +47,7 @@ const Home = () => {
           <ul className="navBar">
             <li className="home"><Link to="/">Home</Link></li>
             <li className="projects"><Link to="/Projects">Projects</Link></li>
-            <li className="skills"><Link to="/Skills">Skills</Link></li>
+            <li className="skillsNav"><Link to="/Skills">Skills</Link></li>
             <li className="resume"><Link to="/Resume">Resume</Link></li>
             <li className="testimonials"><Link to="/Testimonials">Reviews</Link></li>
             <li className="aboutMe"><Link to="/AboutMe">About Me</Link></li>
@@ -87,10 +94,10 @@ const Home = () => {
             </div>
             <div className="seperatorLine" />
             <div className="orderTerms">
-              <p className="variedPrices">Starting at</p>
+              <p className="variedPrices">Starting at:</p>
               <h2 className="price">$50</h2>
-              <p className="priceInfo">Excluding extras/A 30% deposit is required before work begins</p>
-              <p className="time"></p>
+              <p className="priceInfo">Excluding extras / A 30% deposit is required before work begins</p>
+              <p className="time">Estimated delivery time: 5 days to 30 days</p>
             </div>
           </div>
           <Link to="/Order"><button className="orderButton">Place Order</button></Link>
