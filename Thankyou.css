@@ -136,4 +136,8 @@ body.dark-mode {
   .navBarContainer::-webkit-scrollbar {
     display: none;
   }
+
+  .thanksContainer {
+    width: 300px;
+  }
 }
