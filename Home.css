@@ -405,6 +405,12 @@ form img {
 @media (max-width: 768px) {
   .navBarContainer {
     overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .navBarContainer::-webkit-scrollbar {
+    display: none;
   }
 
   .offer {
