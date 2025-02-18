@@ -141,6 +141,10 @@ body.dark-mode {
   font-size: 30;
 }
 
+.spacer {
+  height: 175px;
+}
+
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .navBarContainer {
     max-width: 650px;
