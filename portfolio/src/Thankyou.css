@@ -33,6 +33,8 @@ body.dark-mode {
   margin-block-end: unset;
   margin-inline-start: unset;
   margin-inline-end: unset;
+  height: 75px;
+  vertical-align: center;
 }
 
 .contentContainer {
