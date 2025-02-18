@@ -136,7 +136,7 @@ body.dark-mode {
 }
 
 .imgContainer a img {
-  width: 295px;
+  width: 250px;
   height: auto;
 }
 
@@ -207,7 +207,7 @@ body.dark-mode {
   }
   
   .projectContentContainer {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .projectDetails {
