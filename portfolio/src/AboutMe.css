@@ -116,12 +116,12 @@ body.dark-mode {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    margin-top: 35px;
 }
 
 .aboutMeContainer div {
     display: flex;
     flex-direction: column;
-    transform: translateX(50%);
     gap: 15px;
 }
 
