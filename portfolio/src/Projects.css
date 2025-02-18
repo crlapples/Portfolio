@@ -120,7 +120,7 @@ body.dark-mode {
 
 .projectContentContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-columns: repeat(3, 1fr);
   width: 90%;
 }
 
@@ -129,14 +129,14 @@ body.dark-mode {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 375px;
-  max-height: 290px;
-  gap: 10px;
+  max-width: 275px;
+  max-height: 200px;
+  gap: 25px;
   margin-bottom: 25px;
 }
 
 .imgContainer a img {
-  width: 335px;
+  width: 295px;
   height: auto;
 }
 
@@ -147,8 +147,7 @@ body.dark-mode {
 
 .links {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
@@ -213,5 +212,9 @@ body.dark-mode {
 
   .projectDetails {
     width: 75%;
+  }
+
+  .links {
+    flex-direction: column;
   }
 }
