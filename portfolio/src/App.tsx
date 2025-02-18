@@ -16,14 +16,14 @@ const App = () => {
     <Router basename="/Portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Skills" element={<Skills />} />
-        <Route path="/Resume" element={<Resume />} />
-        <Route path="/Testimonials" element={<Testimonials />} />
-        <Route path="/AboutMe" element={<AboutMe />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Order" element={<Order />} />
-        <Route path="/Thankyou" element={<Thankyou />} />
+        <Route path="/Portfolio/Projects" element={<Projects />} />
+        <Route path="/Portfolio/Skills" element={<Skills />} />
+        <Route path="/Portfolio/Resume" element={<Resume />} />
+        <Route path="/Portfolio/Testimonials" element={<Testimonials />} />
+        <Route path="/Portfolio/AboutMe" element={<AboutMe />} />
+        <Route path="/Portfolio/Contact" element={<Contact />} />
+        <Route path="/Portfolio/Order" element={<Order />} />
+        <Route path="/Portfolio/Thankyou" element={<Thankyou />} />
       </Routes>
     </Router>
   );

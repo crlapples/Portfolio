@@ -45,13 +45,13 @@ const AboutMe: React.FC = () => {
         <div className="navBarContainer">
           <ul className="navBar">
             <li className="home"><Link to="/">Home</Link></li>
-            <li className="projects"><Link to="/Projects">Projects</Link></li>
-            <li className="skillsNav"><Link to="/Skills">Skills</Link></li>
-            <li className="resumeNav"><Link to="/Resume">Resume</Link></li>
-            <li className="testimonials"><Link to="/Testimonials">Reviews</Link></li>
-            <li className="aboutMe"><Link to="/AboutMe">About Me</Link></li>
-            <li className="contact"><Link to="/Contact">Contact Me</Link></li>
-            <li className="order"><Link to="/Order">Order Now</Link></li>
+            <li className="projects"><Link to="/Portfolio/Projects">Projects</Link></li>
+            <li className="skillsNav"><Link to="/Portfolio/Skills">Skills</Link></li>
+            <li className="resumeNav"><Link to="/Portfolio/Resume">Resume</Link></li>
+            <li className="testimonials"><Link to="/Portfolio/Testimonials">Reviews</Link></li>
+            <li className="aboutMe"><Link to="/Portfolio/AboutMe">About Me</Link></li>
+            <li className="contact"><Link to="/Portfolio/Contact">Contact Me</Link></li>
+            <li className="order"><Link to="/Portfolio/Order">Order Now</Link></li>
           </ul>
         </div>
         <header className="titleContainer">
