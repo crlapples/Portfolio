@@ -156,6 +156,7 @@ const Skills: React.FC = () => {
             <p>These are the core skills I’ve acquired through applied projects and continuous learning. I’m passionate about building efficient, scalable solutions and always open to exploring new technologies.</p>
           </div>
         </div>
+        <div className="spacer" />
       </div>
     </main>
   );
