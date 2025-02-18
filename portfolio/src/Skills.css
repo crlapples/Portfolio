@@ -140,6 +140,8 @@ body.dark-mode {
   padding-bottom: 10px;
   border-radius: 5px;
   border: 2px solid black;
+  font-weight: bold;
+  font-size: 23px;
 }
 
 .dark-mode .skillsCategory p {
@@ -184,6 +186,7 @@ body.dark-mode {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 75%;
 }
 
 .skillsSummary p {
