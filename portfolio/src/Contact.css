@@ -144,19 +144,20 @@ body.dark-mode {
   height: 150px;
 }
 
-.info {
+.infoB {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 5px;
+  margin-left: 10px;
 }
 
-.title {
+.titleB {
   font-size: 23px;
 }
 
-.content {
+.contentB {
   font-size: 25px;
   margin-bottom: 35px;
 }
@@ -229,7 +230,7 @@ body.dark-mode {
     width: 65%;
   }
 
-  .info {
+  .infoB {
     width: 25%;
   }
 }
