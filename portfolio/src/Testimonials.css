@@ -113,6 +113,7 @@ body.dark-mode {
 .testimonialsB {
   font-size: 25px;
   margin-top: 50px;
+  color: orange;
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
