@@ -127,6 +127,8 @@ body.dark-mode {
 .imgContainer {
   display: flex;
   flex-direction: column;
+  width: 350px;
+  height: 275px;
   gap: 10px;
 }
 
