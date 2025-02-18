@@ -134,6 +134,15 @@ body.dark-mode {
   gap: 25px;
 }
 
+.form input {
+  width: 100px;
+}
+
+.form textarea {
+  width: 200px;
+  height: 150px;
+}
+
 .info {
   display: flex;
   flex-direction: column;
