@@ -421,6 +421,12 @@ form img {
   height: 175px;
 }
 
+@media (max-with: 500px) {
+  .navBarContainer {
+    max-width: 390px;
+  }
+}
+
 @media (max-width: 768px) {
   .options {
     height: 80px;
