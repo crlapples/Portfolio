@@ -16,6 +16,7 @@ body.dark-mode {
   gap: 35px;
   width: 100%;
   position: relative;
+  margin-top: 75px;
 }
 
 .options {
@@ -28,7 +29,7 @@ body.dark-mode {
   font-weight: bold;
   font-size: 30px;
   margin-left: 35px !important;
-  margin-top: 90px !important;
+  margin-top: 0px !important;
   margin-block-start: unset;
   margin-block-end: unset;
   margin-inline-start: unset;
