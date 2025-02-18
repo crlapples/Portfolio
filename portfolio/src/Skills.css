@@ -132,6 +132,7 @@ body.dark-mode {
   padding-bottom: 10px;
   border-radius: 5px;
   border: 2px solid black;
+  background-color: red;
 }
 
 .dark-mode .skillsCategory p {
@@ -140,11 +141,17 @@ body.dark-mode {
 
 .skillsListContainer {
   display: grid;
-  grid-template-rows: repeat(5);
-  row-gap: 25px;
+  grid-template-columns: repeat(5);
+  gap: 25px;
+  justify-content: center;
+  align-content: center;
 }
 
 .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 128px;
   height: 128px;
 }
@@ -178,6 +185,10 @@ body.dark-mode {
 
 .skillsSummary p {
   font-size: 19px;
+}
+
+.spacer {
+  height: 175px;
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
@@ -237,7 +248,7 @@ body.dark-mode {
   }
 
   .skillsListContainer {
-    grid-template-rows: repeat(3);
+    grid-template-columns: repeat(2);
   }
 
   .skillsSummary {
