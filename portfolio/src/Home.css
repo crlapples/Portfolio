@@ -394,6 +394,7 @@ body.dark-mode {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 21px;
   background-color: lightblue;
   border: 2px solid black;
   border-radius: 5px;
