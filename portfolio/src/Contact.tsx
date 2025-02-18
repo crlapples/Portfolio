@@ -116,13 +116,13 @@ const Contact: React.FC = () => {
               </form>
             </div>
             <div className="seperatorLine" />
-            <div className="info">
-              <p className="title">Name:</p>
-              <p className="content">Christopher Richard Lee</p>
-              <p className="title">Email:</p>
-              <p className="content">crlapples19@gmail.com</p>
-              <p className="title">Discord:</p>
-              <p className="content"><a href="https://discord.gg/WC48vPpH">Invitation</a></p>
+            <div className="infoB">
+              <p className="titleB">Name:</p>
+              <p className="contentB">Christopher Richard Lee</p>
+              <p className="titleB">Email:</p>
+              <p className="contentB">crlapples19@gmail.com</p>
+              <p className="titleB">Discord:</p>
+              <p className="contentB"><a href="https://discord.gg/WC48vPpH">Invitation</a></p>
             </div>
           </div>
           {status && <p>{status}</p>}
