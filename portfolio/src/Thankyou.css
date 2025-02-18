@@ -28,7 +28,7 @@ body.dark-mode {
   font-weight: bold;
   font-size: 30px;
   margin-left: 35px;
-  margin-top: 75px;
+  margin-top: 75px !important;
   margin-block-start: unset;
   margin-block-end: unset;
   margin-inline-start: unset;
