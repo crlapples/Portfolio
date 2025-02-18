@@ -132,6 +132,11 @@ body.dark-mode {
   gap: 10px;
 }
 
+.imgContainer a {
+  width: 360px;
+  height: 235px;
+}
+
 .projectDetails {
   width: 40%
 }
