@@ -522,13 +522,14 @@ form img {
   
   .achievementsContainer {
     overflow-x: auto;
+    width: 350px;
   }
 
   .achievement {
     position: relative;
     flex-direction: column;
     justify-content: center;
-    width: 200px;
+    width: 250px;
   }
 
   .achievement h2 {
