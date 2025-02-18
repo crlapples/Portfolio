@@ -75,8 +75,8 @@ const Contact: React.FC = () => {
           <ul className="navBar">
             <li className="home"><Link to="/">Home</Link></li>
             <li className="projects"><Link to="/Projects">Projects</Link></li>
-            <li className="skills"><Link to="/Skills">Skills</Link></li>
-            <li className="resume"><Link to="/Resume">Resume</Link></li>
+            <li className="skillsNav"><Link to="/Skills">Skills</Link></li>
+            <li className="resumeNav"><Link to="/Resume">Resume</Link></li>
             <li className="testimonials"><Link to="/Testimonials">Reviews</Link></li>
             <li className="aboutMe"><Link to="/AboutMe">About Me</Link></li>
             <li className="contact"><Link to="/Contact">Contact Me</Link></li>
@@ -127,6 +127,7 @@ const Contact: React.FC = () => {
           </div>
           {status && <p>{status}</p>}
         </div>
+        <div className="spacer" />
       </div>
     </main>
   );
