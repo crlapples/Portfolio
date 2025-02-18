@@ -110,6 +110,10 @@ body.dark-mode {
   margin-top: 0 !important;
 }
 
+.spacerB {
+  margin-top: 35px;
+}
+
 .resume {
   width: 80%;
   height: 1080px;
@@ -122,7 +126,6 @@ body.dark-mode {
   align-items: center;
   gap: 25px;
   width: 100%;
-  margin-top: 35px;
 }
 
 .resumeContainer a {
