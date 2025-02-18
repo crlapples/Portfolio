@@ -435,7 +435,7 @@ form img {
   height: 175px;
 }
 
-@media (max-with: 500px) {
+@media (max-width: 500px) {
   .navBarContainer {
     max-width: 390px;
   }
@@ -533,8 +533,8 @@ form img {
   .achievement {
     position: relative;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 60%;
+    justify-content: center;
+    width: 200px;
   }
 
   .achievement h2 {
