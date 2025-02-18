@@ -61,7 +61,7 @@ const Thankyou = () => {
           <p className="thankyou"><span style={{ color: "red" }}>Thank You</span></p>
           <p className="extraInfo">You will be contacted shortly</p>
         </div>
-        </div className="spacer" />
+        <div className="spacer" />
       </div>
     </main>
   );
