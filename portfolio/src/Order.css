@@ -110,7 +110,7 @@ body.dark-mode {
   margin-top: 0 !important;
 }
 
-.formContainer {
+.formB {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -257,5 +257,10 @@ body.dark-mode {
 
   .groupInput {
     flex-direction: column;
+    width: auto;
+  }
+
+  .paypal {
+    max-width: 85%;
   }
 }
