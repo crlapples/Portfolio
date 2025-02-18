@@ -497,9 +497,10 @@ form img {
 
   .orderContainer {
     width: 95%;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    padding-bottom: 15px;
   }
 
   .orderDesc {
