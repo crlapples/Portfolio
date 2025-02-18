@@ -448,6 +448,11 @@ form img {
     transform: scale(0.6);
     gap: 3px;
   }
+
+  .theme p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
   
   .navBarContainer {
     overflow-x: auto;
