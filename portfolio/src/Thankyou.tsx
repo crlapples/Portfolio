@@ -55,10 +55,10 @@ const Thankyou = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">Transaction for Your Website Completed</h1>
+          <h1 className="titleDesc">Transaction for Your Website <span style={{ color: "green" }}>Completed</span></h1>
         </header>
         <div className="thanksContainer">
-          <p className="thankyou"><span style={{ color: "green" }}>Thank You</span></p>
+          <p className="thankyou"><span style={{ color: "red" }}>Thank You</span></p>
           <p className="extraInfo">You will be contacted shortly</p>
         </div>
         </div className="spacer" />
