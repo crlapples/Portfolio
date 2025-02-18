@@ -475,6 +475,12 @@ form img {
     justify-content: flex-start;
   }
 
+  .offerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .offer {
     width: 85%;
     margin-left: 15px;
@@ -483,6 +489,8 @@ form img {
 
   .orderContainer {
     width: 95%;
+    margin-top: 5px;
+    margin-bottom: 15px;
   }
 
   .orderDesc {
@@ -505,6 +513,7 @@ form img {
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
+    width: 35%;
   }
 
   .achievement h2 {
