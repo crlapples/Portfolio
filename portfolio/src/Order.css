@@ -131,6 +131,7 @@ formContainerB {
 
 .emailContainer input {
   width: 200px;
+  border-width: 1px;
 }
 
 .groupInput {
@@ -158,7 +159,7 @@ formContainerB {
   margin-top: 10px;
   width: 500;
   height: 375;
-  margin: 1px;
+  border-width: 1px;
 }
 
 .discountContainer {
