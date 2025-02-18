@@ -139,11 +139,14 @@ body.dark-mode {
 
 .form input {
   width: 100px;
+  border-width: 1px;
 }
 
 .form textarea {
   width: 200px;
   height: 150px;
+  border-width: 1px;
+  margin: 1px;
 }
 
 .seperatorLineC {
