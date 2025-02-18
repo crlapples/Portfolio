@@ -127,15 +127,14 @@ body.dark-mode {
 .imgContainer {
   display: flex;
   flex-direction: column;
-  max-width: 350px;
-  max-height: 275px;
+  max-width: 390px;
+  max-height: 315px;
   gap: 10px;
 }
 
-.imgContainer a {
-  max-width: 85%;
-  height: auto;
-  object-fit: contain;
+.imgContainer a img {
+  width: 350px;
+  height: 250px;
 }
 
 .projectDetails {
