@@ -523,6 +523,7 @@ form img {
   .achievementsContainer {
     overflow-x: auto;
     width: 350px;
+    white-space: nowrap;
   }
 
   .achievement {
