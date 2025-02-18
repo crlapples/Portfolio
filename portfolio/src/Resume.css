@@ -110,6 +110,11 @@ body.dark-mode {
   margin-top: 0 !important;
 }
 
+.resume {
+  width: 80%;
+  height: auto;
+}
+
 .resumeContainer {
   display: flex;
   flex-direction: column;
@@ -125,7 +130,7 @@ body.dark-mode {
   padding-bottom: 5px;
   border: 2px solid black;
   border-radius: 5px;
-  background-color: gray;
+  background-color: lightblue;
   font-size: 19px;
 }
 
@@ -135,6 +140,10 @@ body.dark-mode {
 
 .dark-mode .resumeContainer a {
   border: 2px solid white;
+}
+
+.spacer {
+  height: 175px;
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
@@ -194,7 +203,7 @@ body.dark-mode {
   }
 
   .resume {
-    width: 90%;
+    width: 95%;
     height: auto;
   }
 }
