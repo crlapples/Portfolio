@@ -122,17 +122,18 @@ body.dark-mode {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 90%;
+  gap: 15px;
 }
 
 .imgContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 275px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 250px;
   max-height: 200px;
   gap: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .imgContainer a img {
@@ -142,7 +143,7 @@ body.dark-mode {
 
 .projectDetails {
   width: 75%;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 
 .links {
