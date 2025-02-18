@@ -116,6 +116,7 @@ body.dark-mode {
   justify-content: center;
   align-items: center;
   gap: 35px;
+  width: 100%;
 }
 
 .technicalSkillsContainer {
@@ -154,6 +155,7 @@ body.dark-mode {
   gap: 25px;
   justify-content: center;
   align-content: center;
+  width: 100%;
 }
 
 .skills {
