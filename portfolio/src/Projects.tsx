@@ -96,7 +96,7 @@ const Projects: React.FC = () => {
           <p className="projectDetails">Sudoku project is completed in React. It includes an algorithm and button that generates a puzzle, a timer for speed running, and a win notification when the game is solved.</p>
           <div className="links">
             <p>Live URL: </p><a href="https://crlapples.github.io/Sudoku-project/" target="_blank" rel="noopener noreferrer">Sudoku Project</a>
-            <p>Github URL: </p><a href="https://github.com/crlapples/Sudoku-project" target="_blank" rel="noopener noreferrer"></a>
+            <p>Github URL: </p><a href="https://github.com/crlapples/Sudoku-project" target="_blank" rel="noopener noreferrer">Repository</a>
           </div>
         </div>
         <div className="projectContainer">
