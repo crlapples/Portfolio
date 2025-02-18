@@ -143,12 +143,13 @@ body.dark-mode {
 
 .projectDetails {
   width: 75%;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .links {
   display: flex;
   gap: 10px;
+  margin-bottom: 35px;
 }
 
 .links p {
@@ -214,6 +215,8 @@ body.dark-mode {
   
   .projectContentContainer {
     grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
   }
 
   .projectDetails {
