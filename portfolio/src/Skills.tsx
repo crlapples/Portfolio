@@ -46,8 +46,8 @@ const Skills: React.FC = () => {
           <ul className="navBar">
             <li className="home"><Link to="/">Home</Link></li>
             <li className="projects"><Link to="/Projects">Projects</Link></li>
-            <li className="skills"><Link to="/Skills">Skills</Link></li>
-            <li className="resume"><Link to="/Resume">Resume</Link></li>
+            <li className="skillsNav"><Link to="/Skills">Skills</Link></li>
+            <li className="resumeNav"><Link to="/Resume">Resume</Link></li>
             <li className="testimonials"><Link to="/Testimonials">Reviews</Link></li>
             <li className="aboutMe"><Link to="/AboutMe">About Me</Link></li>
             <li className="contact"><Link to="/Contact">Contact Me</Link></li>
@@ -87,9 +87,9 @@ const Skills: React.FC = () => {
                 <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/node-js-icon.png" />
                 <label className="skillName">Node.js</label>
               </div>
-              <div className="skills">
+              <div className="skills sql">
                 <img src="https://assets.onecompiler.app/42xjnjtme/4399n8sed/sql-database-generic.380x512.png" />
-                <label className="skillName sql">SQL</label>
+                <label className="skillName">SQL</label>
               </div>
               <div className="skills">
                 <img src="https://assets.onecompiler.app/42xjnjtme/43988jq5w/java-programming-language-icon.png" />
