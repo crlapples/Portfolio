@@ -168,8 +168,8 @@ body.dark-mode {
 
   .theme {
     flex-direction: column;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 12px;
+    margin-right: 15px;
   }
 
   .theme p {
