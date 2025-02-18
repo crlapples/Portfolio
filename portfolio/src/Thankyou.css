@@ -158,13 +158,14 @@ body.dark-mode {
   }
 
   .titleDesc {
-    width: 75%;
+    width: 90%;
+    margin-left: 25px;
   }
 
   .theme {
     flex-direction: column;
-    margin-top: 0px;
-    margin-right: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
   }
 
   .theme p {
