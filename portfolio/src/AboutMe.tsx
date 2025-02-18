@@ -71,6 +71,7 @@ const AboutMe: React.FC = () => {
             <p>I believe in the power of perseverance and lifelong learning. My mission is to continually improve as a developer and offer my skills to help others build innovative solutions. I value collaboration, open communication, and making technology accessible to everyone. Through my work, I aim to make a positive impact on others and contribute to projects that can make a difference.</p>
           </div>
         </div>
+        <div className="spacer" />
       </div>
     </main>
   );
