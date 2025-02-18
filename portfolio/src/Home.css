@@ -394,12 +394,13 @@ body.dark-mode {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 21px;
+  font-size: 18px;
   background-color: lightblue;
   border: 2px solid black;
   border-radius: 5px;
   padding: 10px;
   color: black;
+  height: 110px;
 }
 
 .dark-mode .achievement {
@@ -525,6 +526,7 @@ form img {
     width: 350px;
     white-space: nowrap;
     scroll-padding-left: 0;
+    justify-content: flex-start;
   }
 
   .achievement {
