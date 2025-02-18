@@ -141,6 +141,10 @@ body.dark-mode {
   height: auto;
 }
 
+.imgContainer p {
+  text-align: center;
+}
+
 .projectDetails {
   width: 75%;
   margin-bottom: 25px;
@@ -225,5 +229,6 @@ body.dark-mode {
 
   .links {
     flex-direction: column;
+    gap: 5px;
   }
 }
