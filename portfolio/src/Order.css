@@ -115,8 +115,8 @@ body.dark-mode {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 25px;
-  margin-left: auto;
+  gap: 35px;
+  margin: 0 auto;
 }
 
 .emailContainer input {
@@ -188,7 +188,7 @@ body.dark-mode {
 }
 
 .paypal {
-  margin-left: auto;
+  margin-left: 0 auto;
 }
 
 .spacer {
@@ -258,6 +258,11 @@ body.dark-mode {
   .groupInput {
     flex-direction: column;
     width: auto;
+  }
+
+  .clientDesc textarea {
+    width: 90%;
+    height: auto;
   }
 
   .paypal {
