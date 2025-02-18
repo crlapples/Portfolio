@@ -64,6 +64,7 @@ const Resume: React.FC = () => {
           />
           <a href="https://docs.google.com/document/d/1iy7ym7Oda6__luBKYuS0l4lMys6fcBVvVMly4t5cs9A/export?format=pdf" download>Download Resume</a>
         </div>
+        <div className="spacer" />
       </div>
     </main>
   );
