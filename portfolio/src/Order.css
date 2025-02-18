@@ -172,12 +172,12 @@ body.dark-mode {
 
 .seperatorLineB {
   width: 1px;
-  height: 95%;
-  border: 2px solid black;
+  height: 35px;
+  background-color: black;
 }
 
 .dark-mode .seperatorLine {
-  border: 2px solid white;
+  background-color: white;
 }
 
 .depositContainer {
