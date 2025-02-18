@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">crlapples' Projects</h1>
+          <h1 className="titleDesc"><span style={{ color: "purple" }}>crlapples'</span> Projects</h1>
         </header>
         <div className="projectContainer">
           <div className="projectContentContainer">
