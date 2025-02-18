@@ -31,6 +31,8 @@ body.dark-mode {
   margin-top: 75px;
   margin-block-start: unset;
   margin-block-end: unset;
+  margin-inline-start: unset;
+  margin-inline-end: unset;
 }
 
 .contentContainer {
