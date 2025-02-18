@@ -94,8 +94,8 @@ const Order: React.FC = () => {
           <ul className="navBar">
             <li className="home"><Link to="/">Home</Link></li>
             <li className="projects"><Link to="/Projects">Projects</Link></li>
-            <li className="skills"><Link to="/Skills">Skills</Link></li>
-            <li className="resume"><Link to="/Resume">Resume</Link></li>
+            <li className="skillsNav"><Link to="/Skills">Skills</Link></li>
+            <li className="resumeNav"><Link to="/Resume">Resume</Link></li>
             <li className="testimonials"><Link to="/Testimonials">Reviews</Link></li>
             <li className="aboutMe"><Link to="/AboutMe">About Me</Link></li>
             <li className="contact"><Link to="/Contact">Contact Me</Link></li>
@@ -103,7 +103,7 @@ const Order: React.FC = () => {
           </ul>
         </div>
         <header className="titleContainer">
-          <h1 className="titleDesc">Your Website, Your Way. Let’s Build It!</h1>
+          <h1 className="titleDesc">Your <span style={{ color: "lightblue" }}>Website</span>, Your Way. Let’s Build It!</h1>
         </header>
         <div className="formContainer">
           <form>
@@ -222,6 +222,7 @@ const Order: React.FC = () => {
             </div>
           </form>
         </div>
+        <div className="spacer" />
       </div>
     </main>
   );
