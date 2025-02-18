@@ -133,8 +133,9 @@ body.dark-mode {
 }
 
 .imgContainer a {
-  max-width: 360px;
-  max-height: 235px;
+  max-width: 85%;
+  height: auto;
+  object-fit: contain;
 }
 
 .projectDetails {
