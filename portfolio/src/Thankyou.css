@@ -67,6 +67,7 @@ body.dark-mode {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  width: 100%;
 }
 
 .titleDesc {
@@ -162,6 +163,7 @@ body.dark-mode {
     margin-left: 25px;
     margin-inline-start: unset;
     margin-inline-end: unset;
+    text-align: center;
   }
 
   .theme {
