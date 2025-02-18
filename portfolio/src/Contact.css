@@ -221,6 +221,10 @@ body.dark-mode {
     justify-content: flex-start;
   }
 
+  .formWithInfoContainer {
+    width: 100%;
+  }
+
   .form {
     width: 65%;
   }
