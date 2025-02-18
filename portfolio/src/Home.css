@@ -524,6 +524,7 @@ form img {
     overflow-x: auto;
     width: 350px;
     white-space: nowrap;
+    scroll-padding-left: 0;
   }
 
   .achievement {
