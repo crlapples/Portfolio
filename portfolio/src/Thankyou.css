@@ -27,7 +27,7 @@ body.dark-mode {
 .title {
   font-weight: bold;
   font-size: 30px;
-  margin-left: 35px;
+  margin-left: 35px !important;
   margin-top: 75px !important;
   margin-block-start: unset;
   margin-block-end: unset;
