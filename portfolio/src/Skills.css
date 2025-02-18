@@ -148,7 +148,7 @@ body.dark-mode {
 
 .skillsListContainer {
   display: grid;
-  grid-template-columns: repeat(5);
+  grid-template-columns: repeat(5, 1fr);
   gap: 25px;
   justify-content: center;
   align-content: center;
@@ -166,10 +166,6 @@ body.dark-mode {
 .skills img {
   max-width: 64px;
   max-height: 64px;
-}
-
-.sql {
-  max-width: 47.5px;
 }
 
 .skillName {
@@ -255,7 +251,7 @@ body.dark-mode {
   }
 
   .skillsListContainer {
-    grid-template-columns: repeat(2);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .skillsSummary {
