@@ -57,7 +57,7 @@ const Testimonials = () => {
         <header className="titleContainer">
           <h1 className="titleDesc">crlapples' Reviews</h1>
         </header>
-        <div className="testimonials">
+        <div className="testimonialsB">
           <p>Be the first one to leave your review here!</p>
         </div>
       </div>
