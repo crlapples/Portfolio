@@ -116,6 +116,7 @@ const Projects: React.FC = () => {
           </div>
           <p className="projectDetails">Knight RPG Tycoon is an Android mobile game done using Godot in GDScript. It includes real-time combat, random affixed items, item stores, AI controlled units, character leveling, knight recruiting, raid boss, saving/loading, music and sounds, audio settings, and menu.</p>
         </div>
+        <div className="spacer" />
       </div>
     </main>
   );
