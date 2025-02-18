@@ -110,12 +110,13 @@ const Contact: React.FC = () => {
                   id="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
+                  placeholder="Message"
                   required
                 />
                 <button type="submit">Send</button>
               </form>
             </div>
-            <div className="seperatorLine" />
+            <div className="seperatorLineC" />
             <div className="infoB">
               <p className="titleB">Name:</p>
               <p className="contentB">Christopher Richard Lee</p>

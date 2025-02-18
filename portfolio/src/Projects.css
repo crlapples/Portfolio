@@ -122,8 +122,15 @@ body.dark-mode {
 .projectContentContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 90%;
+  width: 75%;
   gap: 15px;
+  align-items: stretch;
+}
+
+.projectContentContainer .imgContainer {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100%;
 }
 
 .imgContainer {

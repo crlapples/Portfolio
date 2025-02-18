@@ -52,7 +52,7 @@ const Order: React.FC = () => {
     if (isDiscounted) {
       calculatedPrice = Number((calculatedPrice * 0.8).toFixed(2));
     }
-    setTotalPrice(calculatedPrice);
+    setTotalPrice(Number(calculatedPrice.toFixed(2)));
   }, [selectedPages, selectedHosting, selectedBackend, isDiscounted]);
 
   useEffect(() => {
@@ -157,10 +157,10 @@ const Order: React.FC = () => {
               />
               <label htmlFor="discountCheckbox">Apply 20% first-time user discount</label>
             </div>
-            <div className="priceContainer">
-              <div className="totalPriceContainer">
+            <div className="priceContainerB">
+              <div className="totalPriceContainerB">
                 <p className="priceTitle">Total Price</p>
-                <p className="priceNumber">${totalPrice}</p>
+                <p className="priceNumber">${totalPrice.toFixed(2)}</p>
               </div>
               <div className="seperatorLineB" />
               <div className="depositContainer">

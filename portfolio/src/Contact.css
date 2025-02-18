@@ -123,16 +123,18 @@ body.dark-mode {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 150px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 15px;
   gap: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form input {
@@ -142,6 +144,16 @@ body.dark-mode {
 .form textarea {
   width: 200px;
   height: 150px;
+}
+
+.seperatorLineC {
+  width: 1px;
+  height: 350px;
+  background-color: black;
+}
+
+.dark-mode .seperatorLineC {
+  background-color: white;
 }
 
 .infoB {
@@ -231,11 +243,23 @@ body.dark-mode {
     width: 100%;
   }
 
+  .formWithInfo {
+    gap: 10px;
+    flex-direction: column-reverse;
+  }
+
+  .seperatorLineC {
+    height: 1px;
+    width: 250px;
+  }
+
   .form {
-    width: 65%;
+    width: 80%;
+    margin-left: 0;
   }
 
   .infoB {
-    width: 25%;
+    width: 80%;
+    margin-left: -55px;
   }
 }

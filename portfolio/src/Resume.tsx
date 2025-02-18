@@ -57,7 +57,7 @@ const Resume: React.FC = () => {
         <header className="titleContainer">
           <h1 className="titleDesc"><span style={{ color: "purple" }}>crlapples'</span> Resume</h1>
         </header>
-        <dic className="spacerB" />
+        <div className="spacerB" />
         <div className="resumeContainer">
           <iframe
             className="resume"

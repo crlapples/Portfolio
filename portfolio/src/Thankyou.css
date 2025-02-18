@@ -163,7 +163,7 @@ body.dark-mode {
   .title {
     width: 75px;
     margin-top: 0px;
-    margin-left: 5px;
+    margin-left: 5px !important;
     transform: scale(0.6);
   }
 

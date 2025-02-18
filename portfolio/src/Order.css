@@ -118,6 +118,7 @@ formContainerB {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px;
 }
 
 .formB {
@@ -129,12 +130,22 @@ formContainerB {
 }
 
 .emailContainer input {
-  width: 100px;
+  width: 200px;
 }
 
 .groupInput {
   display: flex;
   gap: 15px;
+}
+
+.groupInput select {
+  border-width: 1px;
+}
+
+.clientDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .clientDescContainer {
@@ -147,22 +158,29 @@ formContainerB {
   margin-top: 10px;
   width: 500;
   height: 375;
+  margin: 1px;
 }
 
 .discountContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.priceContainer {
+.priceContainerB {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
-.totalPriceContainer {
+.totalPriceContainerB {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -173,10 +191,14 @@ formContainerB {
 .priceTitle {
   color: green;
   font-size: 23px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .priceNumber {
   font-size: 22px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .seperatorLineB {
