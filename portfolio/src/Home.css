@@ -320,6 +320,10 @@ body.dark-mode {
   height: 64px;
 }
 
+.dark-mode .x {
+  filter: invert(1);
+}
+
 .instagram {
   width: 64px;
   height: 64px;
