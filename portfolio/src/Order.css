@@ -131,10 +131,11 @@ body.dark-mode {
 .clientDescContainer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .clientDesc textarea {
+  margin-top: 10px;
   width: 500;
   height: 375;
 }
