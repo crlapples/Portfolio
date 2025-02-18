@@ -110,13 +110,19 @@ body.dark-mode {
   margin-top: 0 !important;
 }
 
+formContainerB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .formB {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 35px;
-  margin: 0 auto;
 }
 
 .emailContainer input {
@@ -186,10 +192,6 @@ body.dark-mode {
   justify-content: center;
   align-items: center;
   gap: 15px;
-}
-
-.paypal {
-  margin-left: 0 auto;
 }
 
 .spacer {
