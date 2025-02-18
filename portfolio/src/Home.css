@@ -521,7 +521,6 @@ form img {
   
   .achievementsContainer {
     overflow-x: auto;
-    max-width: 375px;
   }
 
   .achievement {
