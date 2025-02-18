@@ -58,7 +58,7 @@ body.dark-mode {
   opacity: 0;
   width: 60px;
   height: 34px;
-  position: absolute;
+  position: relative;
   z-index: 1;
   cursor: pointer;
 }
