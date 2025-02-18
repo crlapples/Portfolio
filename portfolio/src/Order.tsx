@@ -106,7 +106,7 @@ const Order: React.FC = () => {
           <h1 className="titleDesc">Your <span style={{ color: "lightblue" }}>Website</span>, Your Way. Let’s Build It!</h1>
         </header>
         <div className="formContainer">
-          <form>
+          <form className="formB">
             <div className="emailContainer">
               <input
                 type="email"
