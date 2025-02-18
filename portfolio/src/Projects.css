@@ -121,19 +121,21 @@ body.dark-mode {
 .projectContentContainer {
   display: grid;
   grid-template-rows: repeat(3, 1fr) !important;
-  width: 80%;
+  width: 90%;
 }
 
 .imgContainer {
   display: flex;
   flex-direction: column;
-  max-width: 390px;
-  max-height: 315px;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  max-height: 275px;
   gap: 10px;
 }
 
 .imgContainer a img {
-  width: 350px;
+  width: 335px;
   height: 250px;
 }
 
