@@ -120,8 +120,9 @@ body.dark-mode {
 
 .projectContentContainer {
   display: grid;
-  grid-template-rows: repeat(3, 1fr) !important;
+  grid-template-rows: repeat(3) !important;
   height: 500px;
+  width: 1080px;
 }
 
 .projectContentContainer > *:nth-child(1) { grid-row: 1; }
@@ -133,8 +134,8 @@ body.dark-mode {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 350px;
-  max-height: 275px;
+  max-width: 375px;
+  max-height: 290px;
   gap: 10px;
 }
 
@@ -144,7 +145,7 @@ body.dark-mode {
 }
 
 .projectDetails {
-  width: 40%
+  width: 70%
 }
 
 .links {
