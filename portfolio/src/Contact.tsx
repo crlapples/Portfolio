@@ -88,8 +88,8 @@ const Contact: React.FC = () => {
         </header>
         <div className="formWithInfoContainer">
           <div className="formWithInfo">
-            <div className="form">
-              <form onSubmit={handleSubmit}>
+            <div>
+              <form className="form" onSubmit={handleSubmit}>
                 <input
                   type="text"
                   id="name"
