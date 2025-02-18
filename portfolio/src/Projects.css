@@ -121,8 +121,12 @@ body.dark-mode {
 .projectContentContainer {
   display: grid;
   grid-template-rows: repeat(3, 1fr) !important;
-  width: 90%;
+  height: 500px;
 }
+
+.projectContentContainer > *:nth-child(1) { grid-row: 1; }
+.projectContentContainer > *:nth-child(2) { grid-row: 2; }
+.projectContentContainer > *:nth-child(3) { grid-row: 3; }
 
 .imgContainer {
   display: flex;
