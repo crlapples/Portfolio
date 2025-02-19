@@ -485,6 +485,10 @@ form img {
     margin-block-start: 0;
     margin-block-end: 0;
   }
+
+  .slider {
+    margin-top: 2px;
+  }
   
   .navBarContainer {
     overflow-x: auto;
