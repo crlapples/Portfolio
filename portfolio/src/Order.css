@@ -285,8 +285,10 @@ formContainerB {
     justify-content: flex-start;
   }
   
-  .formContainer {
+  .formContainerB {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .groupInput {

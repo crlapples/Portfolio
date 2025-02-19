@@ -184,6 +184,10 @@ body.dark-mode {
   align-items: center;
 }
 
+.softSkillsContainer .skillsListContainer .skills img {
+  filter: invert(1);
+}
+
 .skillsSummary {
   display: flex;
   flex-direction: column;
