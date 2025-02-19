@@ -139,7 +139,7 @@ const Home = () => {
               </a>
             </li>
             <li className="fiverr">
-              <a href="https://www.fiverr.com/crlapples">
+              <a href="https://www.fiverr.com/s/42QavmG">
                 <img className="fiverrIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/fiverr-icon.png" />
               </a>
             </li>
