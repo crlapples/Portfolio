@@ -24,7 +24,7 @@ const Order: React.FC = () => {
       const element = document.querySelector(hash);
       if (element) {
         (element as HTMLElement).focus();
-        element.scrollIntoView({ behavior: "smooth", block: "start" });
+        element.scrollIntoView({ behavior: "smooth", block: "center" });
       }
     }
   }, [hash]);

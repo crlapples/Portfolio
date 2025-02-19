@@ -263,7 +263,7 @@ body.dark-mode {
 }
 
 .orderButton {
-  color: yellow;
+  color: black;
   border: 2px solid black;
   background-color: blue;
   font-size: 23px;
@@ -278,12 +278,13 @@ body.dark-mode {
 .dark-mode .orderButton {
   background-color: blue;
   border: 2px solid white;
+  color: white;
 }
 
 .orderButton:hover {
   cursor: pointer;
   background-color: yellow;
-  color: blue;
+  color: lightblue;
 }
 
 .dark-mode .orderButton:hover {
