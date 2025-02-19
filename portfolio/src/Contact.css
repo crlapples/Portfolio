@@ -149,6 +149,14 @@ body.dark-mode {
   margin: 1px;
 }
 
+.form button {
+  border-radius: 20px;
+  background-color: purple;
+  width: 75px;
+  height: 50px;
+  border: none;
+}
+
 .seperatorLineC {
   width: 1px;
   height: 350px;
