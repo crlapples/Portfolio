@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./Home";
 import Projects from "./Projects";
@@ -11,6 +11,9 @@ import Order from "./Order";
 import Thankyou from "./Thankyou";
 
 const App = () => {
+  useEffect(() => {
+    document.title = "crlapples - Portfolio"
+  }, []);
 
   return (
     <Router>
