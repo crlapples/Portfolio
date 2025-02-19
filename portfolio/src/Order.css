@@ -291,6 +291,11 @@ formContainerB {
     margin-right: auto;
   }
 
+  .formB {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .groupInput {
     flex-direction: column;
     width: auto;

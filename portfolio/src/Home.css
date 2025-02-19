@@ -486,8 +486,8 @@ form img {
     margin-block-end: 0;
   }
 
-  .slider {
-    top: 5px;
+  .slider::before {
+    top: 1.2px;
   }
   
   .navBarContainer {
