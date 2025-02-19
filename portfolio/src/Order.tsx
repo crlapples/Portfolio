@@ -23,7 +23,7 @@ const Order: React.FC = () => {
     if (hash) {
       const element = document.querySelector(hash);
       if (element) {
-        element.focus();
+        (element as HTMLElement).focus();
         element.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }
