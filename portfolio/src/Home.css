@@ -489,7 +489,7 @@ form img {
   }
 
   .slider::before {
-    top: 1.35px;
+    top: 4px;
   }
   
   .navBarContainer {
