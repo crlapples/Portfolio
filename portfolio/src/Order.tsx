@@ -9,7 +9,7 @@ const Order: React.FC = () => {
   const [selectedBackend, setSelectedBackend] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [description, setDescription] = useState<string>("");
-  const [totalPrice, setTotalPrice] = useState<number>(50.0);
+  const [totalPrice, setTotalPrice] = useState<number>(0.0);
   const [isDiscounted, setIsDiscounted] = useState<boolean>(false);
   const [status, setStatus] = useState<string>("");
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
@@ -54,7 +54,7 @@ const Order: React.FC = () => {
     return () => window.removeEventListener("storage", handleStorageUpdate);
   }, []);
 
-  const prices = { pages: { "1": 50, "2-5": 150, "5-10": 300 }, hosting: { "hosting-yes": 25, "hosting-no": 0 }, backend: { "backend-yes": 300, "backend-no": 0 }};
+  const prices = { pages: { "None": 0, "1": 50, "2-5": 150, "5-10": 300 }, hosting: { "hosting-yes": 25, "hosting-no": 0 }, backend: { "backend-yes": 300, "backend-no": 0 }};
                   
   useEffect(() => {
     const pagesPrice = prices.pages[selectedPages as keyof typeof prices.pages] || 0;
@@ -131,6 +131,7 @@ const Order: React.FC = () => {
             <div className="groupInput">
               <label htmlFor="pages">Choose page amount:</label>
               <select id="pages" name="pages" value={selectedPages} onChange={handlePages}>
+                <option value="None">None, 0</option>
                 <option value="1">Single-page, 1</option>
                 <option value="2-5">Small business, 2-5</option>
                 <option value="5-10">Professional, 5-10</option>
