@@ -39,6 +39,8 @@ const Contact: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    let sent = true;
     
     const formData = new FormData();
     formData.append("name", name);
@@ -47,16 +49,15 @@ const Contact: React.FC = () => {
 
     const response = await fetch("https://formspree.io/f/xzzdkbny", {
       method: "POST",
-      headers: { "Accept": "application/json",
-                "Content-Type": "application/json" },
-      body: JSON.stringify(formData)
+      body: formData
     });
     
-    if (response.ok) {
+    if (sent) {
       setStatus("Thank you for contacting me!");
       setName("");
       setEmail("");
       setMessage("");
+      sent = false;
     } else {
       setStatus("Something went wrong, failed to send message");
     }

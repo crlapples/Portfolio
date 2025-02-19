@@ -9,7 +9,7 @@ const Order: React.FC = () => {
   const [selectedBackend, setSelectedBackend] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [description, setDescription] = useState<string>("");
-  const [totalPrice, setTotalPrice] = useState<number>(0.0);
+  const [totalPrice, setTotalPrice] = useState<number>(50.0);
   const [isDiscounted, setIsDiscounted] = useState<boolean>(false);
   const [status, setStatus] = useState<string>("");
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
@@ -137,13 +137,13 @@ const Order: React.FC = () => {
               </select>
               <label htmlFor="hosting">Need hosting?:</label>
               <select id="hosting" name="hosting" value={selectedHosting} onChange={handleHosting}>
-                <option value="hosting-yes">Yes</option>
                 <option value="hosting-no">No</option>
+                <option value="hosting-yes">Yes</option>
               </select>
               <label htmlFor="backend">Backend server included?:</label>
               <select id="backend" name="backend" value={selectedBackend} onChange={handleBackend}>
-                <option value="backend-yes">Yes</option>
                 <option value="backend-no">No</option>
+                <option value="backend-yes">Yes</option>
               </select>
             </div>
             <div className="clientDescContainer">
@@ -194,6 +194,8 @@ const Order: React.FC = () => {
                       return actions.order.capture().then((details) => {
                         if (details.payer && details.payer.name) {
                           
+                          let sent2 = true;
+
                           const formData = new FormData();
                           formData.append("email", email);
                           formData.append("pages", selectedPages);
@@ -207,8 +209,9 @@ const Order: React.FC = () => {
                             body: formData
                           })
                           .then(response => {
-                            if (response.ok) {
+                            if (sent2) {
                               setStatus("success");
+                              sent2 = false;
                             } else {
                               setStatus("fail");
                             }
