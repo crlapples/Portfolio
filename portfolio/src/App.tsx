@@ -13,7 +13,7 @@ import Thankyou from "./Thankyou";
 const App = () => {
 
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Projects" element={<Projects />} />
