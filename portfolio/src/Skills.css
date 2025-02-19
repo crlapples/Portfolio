@@ -125,7 +125,7 @@ body.dark-mode {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .technicalSkillsContainer .skillsCategory p {
@@ -183,6 +183,7 @@ body.dark-mode {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .dark-mode .softSkillsContainer .skillsListContainer .skills img {

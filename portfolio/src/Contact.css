@@ -151,10 +151,12 @@ body.dark-mode {
 
 .form button {
   border-radius: 20px;
-  background-color: purple;
-  width: 75px;
+  background-color: orange;
+  width: 150px;
   height: 50px;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .seperatorLineC {
