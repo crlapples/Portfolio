@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import "./Order.css";
 
@@ -16,6 +16,18 @@ const Order: React.FC = () => {
     const savedTheme = localStorage.getItem("isDarkMode");
     return savedTheme ? JSON.parse(savedTheme) : false;
   });
+
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.focus();
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  }, [hash]);
 
   useEffect(() => {
     const applyTheme = (darkMode: boolean) => {

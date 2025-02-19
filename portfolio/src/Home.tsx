@@ -100,7 +100,7 @@ const Home = () => {
               <p className="time">Estimated delivery time: 5 days to 30 days</p>
             </div>
           </div>
-          <Link to="/Order"><button className="orderButton">Place Order</button></Link>
+          <Link to="/Order#emailInput"><button className="orderButton">Place Order</button></Link>
         </div>
         <div className="socialsContainer">
           <ul className="socials">
