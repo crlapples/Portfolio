@@ -184,7 +184,7 @@ body.dark-mode {
   align-items: center;
 }
 
-.softSkillsContainer .skillsListContainer .skills img {
+.dark-mode .softSkillsContainer .skillsListContainer .skills img {
   filter: invert(1);
 }
 

@@ -134,11 +134,12 @@ body.dark-mode {
   padding-top: 5px;
   padding-bottom: 5px;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: lightblue;
   font-size: 19px;
   margin-top: 50px;
   font-weight: bold;
+  border: none;
 }
 
 .dark-mode .resume {
