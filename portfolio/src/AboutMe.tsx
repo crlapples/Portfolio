@@ -57,7 +57,7 @@ const AboutMe: React.FC = () => {
         <header className="titleContainer">
           <h1 className="titleDesc">About Me</h1>
         </header>
-        <img className="aboutImg" src"https://assets.onecompiler.app/42xjnjtme/439pagrds/image_fx_%20(25).jpg" />
+        <img className="aboutImg" src="https://assets.onecompiler.app/42xjnjtme/439pagrds/image_fx_%20(25).jpg" />
         <div className="aboutMeContainer">
           <div className="introduction">
             <p style={{ color: "red" }}><strong>Introduction</strong></p>
