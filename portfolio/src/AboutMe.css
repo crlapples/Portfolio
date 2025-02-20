@@ -110,6 +110,11 @@ body.dark-mode {
   margin-top: 0 !important;
 }
 
+.aboutImg {
+  width: 75%;
+  height: auto;
+}
+
 .aboutMeContainer {
     display: flex;
     flex-direction: column;
@@ -185,6 +190,10 @@ body.dark-mode {
 
   .navBar {
     justify-content: flex-start;
+  }
+
+  .aboutImg {
+    width: 95%;
   }
 
   .aboutMeContainer {
