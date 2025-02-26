@@ -115,6 +115,34 @@ const Projects: React.FC = () => {
             </div>
           </div>
           <p className="projectDetails">Knight RPG Tycoon is an Android mobile game done using Godot in GDScript. It includes real-time combat, random affixed items, item stores, AI controlled units, character leveling, knight recruiting, raid boss, saving/loading, music and sounds, audio settings, and menu.</p>
+          <div className="projectContainer">
+          <div className="projectContentContainer">
+            <div className="imgContainer">
+              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></a>
+              <label className="imgLabel">RPG tycoon Android app mobile game</label>
+            </div>
+            <div className="imgContainer">
+              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></a>
+              <label className="imgLabel">Combat for Android app mobile game</label>
+            </div>
+            <div className="imgContainer">
+              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></a>
+              <label className="imgLabel">GUI example in Android app mobile game</label>
+            </div>
+            <div className="imgContainer">
+              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></a>
+              <label className="imgLabel">RPG tycoon Android app mobile game</label>
+            </div>
+            <div className="imgContainer">
+              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></a>
+              <label className="imgLabel">Combat for Android app mobile game</label>
+            </div>
+            <div className="imgContainer">
+              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></a>
+              <label className="imgLabel">GUI example in Android app mobile game</label>
+            </div>
+          </div>
+          <p className="projectDetails">Knight RPG Tycoon is an Android mobile game done using Godot in GDScript. It includes real-time combat, random affixed items, item stores, AI controlled units, character leveling, knight recruiting, raid boss, saving/loading, music and sounds, audio settings, and menu.</p>
         </div>
         <div className="spacer" />
       </div>
