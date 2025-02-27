@@ -146,10 +146,6 @@ body.dark-mode {
   filter: invert(1);
 }
 
-.dark-mode .resumeContainer a {
-  border: 2px solid white;
-}
-
 .spacer {
   height: 175px;
 }

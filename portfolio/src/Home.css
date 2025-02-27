@@ -277,20 +277,19 @@ body.dark-mode {
 
 .dark-mode .orderButton {
   background-color: blue;
-  border: 2px solid white;
   color: white;
 }
 
 .orderButton:hover {
   cursor: pointer;
   background-color: yellow;
-  color: lightblue;
+  color: black;
 }
 
 .dark-mode .orderButton:hover {
   cursor: pointer;
   background-color: yellow;
-  color: blue;
+  color: white;
 }
 
 .socials {
