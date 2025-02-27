@@ -60,11 +60,16 @@ const Testimonials = () => {
         <div className="testimonialsB">
           <div className="reviews1">
             <div className="titleWithRating">
-              <p className="title1"></p>
-              <p className="rating1"></p>
-              <img className="orderedFromIcon" src="" />
+              <p className="title1">Supplier Relations US, LLC</p>
+              <p className="rating1">★★★★★</p>
+              <img className="orderedFromIcon" src="https://assets.onecompiler.app/42xjnjtme/438vttv6t/fiverr-icon.png" />
             </div>
-            
+            <div className="projectNameDate">
+              <p className="projectName">AppShowcase</p>
+              <p className="projectDate">02/22/25</p>
+            </div>
+            <div className="seperatorLineF" />
+            <p className="reviewQuote">"Chris did an excellent job for a quite complicated website design. I will most definitely use him again. He took time to research on the project and he can understand what we need. I will highly recommend him. Wait, he did the website in 2 days."</p>
           </div>
         </div>
       </div>
