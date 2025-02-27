@@ -58,7 +58,14 @@ const Testimonials = () => {
           <h1 className="titleDesc"><span style={{ color: "purple" }}>crlapples'</span> Reviews</h1>
         </header>
         <div className="testimonialsB">
-          <p>Be the first one to leave your review here!</p>
+          <div className="reviews1">
+            <div className="titleWithRating">
+              <p className="title1"></p>
+              <p className="rating1"></p>
+              <img className="orderedFromIcon" src="" />
+            </div>
+            
+          </div>
         </div>
       </div>
     </main>
