@@ -156,7 +156,7 @@ const Projects: React.FC = () => {
           </div>
           <p className="projectDetails">The original version was swapped out for a minimalist approach and removed the navigation bar. The new website has direct links to the Google Play Store and Apple App Store. This website was done in Next.js with typescript.</p>
           <div className="links">
-            <p>Live URL: </p><a href="https://next-beige-nu.vercel.app/" target="_blank" rel="noopener noreferrer">AppShowcase Order</a>
+            <p>Live URL: </p><a href="https://next-beige-nu.vercel.app/" target="_blank" rel="noopener noreferrer">AppShowcase Fiverr Order</a>
             <p>Github URL: </p><a href="https://github.com/crlapples/next" target="_blank" rel="noopener noreferrer">Repository</a>
           </div>
         </div>
