@@ -75,7 +75,7 @@ const Projects: React.FC = () => {
           <p className="projectDetails">My e-commerce project website is completed in HTML, CSS, and JavaScript. The example includes recommended items on the homepage, along with accounts integration, cart, search, categories, individual item pages, checkout, responsive design, dynamically added items to handle new inventory, and persistent items.</p>
           <div className="links">
             <p>Live URL: </p><a href="https://crlapples.github.io/Marketplace-project/" target="_blank" rel="noopener noreferrer">Marketplace Project</a>
-            <p>Github URL: </p><a href="https://github.com/crlapples/Marketplace-project" target="_blank" rel="noopener noreferrer">Repository</a>
+            <p>Github URL: </p><a href="https://github.com/crlapples/Marketplace-project" target="_blank" rel="noopener noreferrer">Marketplace Repository</a>
           </div>
         </div>
         <div className="projectContainer">
@@ -96,7 +96,7 @@ const Projects: React.FC = () => {
           <p className="projectDetails">Sudoku project is completed in React. It includes an algorithm and button that generates a puzzle, a timer for speed running, and a win notification when the game is solved.</p>
           <div className="links">
             <p>Live URL: </p><a href="https://crlapples.github.io/Sudoku-project/" target="_blank" rel="noopener noreferrer">Sudoku Project</a>
-            <p>Github URL: </p><a href="https://github.com/crlapples/Sudoku-project" target="_blank" rel="noopener noreferrer">Repository</a>
+            <p>Github URL: </p><a href="https://github.com/crlapples/Sudoku-project" target="_blank" rel="noopener noreferrer">Sudoku Repository</a>
           </div>
         </div>
         <div className="projectContainer">
@@ -118,31 +118,47 @@ const Projects: React.FC = () => {
           <div className="projectContainer">
           <div className="projectContentContainer">
             <div className="imgContainer">
-              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></a>
-              <label className="imgLabel">RPG tycoon Android app mobile game</label>
+              <a href="https://assets.onecompiler.app/42xjnjtme/43a9ndqvh/AppShowcase1%20(1).png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></a>
+              <label className="imgLabel">Original website with logo, navigation bar and welcome header</label>
             </div>
             <div className="imgContainer">
-              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></a>
-              <label className="imgLabel">Combat for Android app mobile game</label>
+              <a href="https://assets.onecompiler.app/42xjnjtme/43a9ndqvh/AppShowcase2%20(1).png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></a>
+              <label className="imgLabel">Original website first introduction app</label>
             </div>
             <div className="imgContainer">
-              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></a>
-              <label className="imgLabel">GUI example in Android app mobile game</label>
+              <a href="https://assets.onecompiler.app/42xjnjtme/43a9ndqvh/AppShowcase3%20(1).png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></a>
+              <label className="imgLabel">Original website second introduction app</label>
             </div>
             <div className="imgContainer">
-              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></a>
-              <label className="imgLabel">RPG tycoon Android app mobile game</label>
+              <a href="https://assets.onecompiler.app/42xjnjtme/43a9ndqvh/AppShowcase4%20(1).png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></a>
+              <label className="imgLabel">Original website third introduction app</label>
             </div>
             <div className="imgContainer">
-              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></a>
-              <label className="imgLabel">Combat for Android app mobile game</label>
+              <a href="https://assets.onecompiler.app/42xjnjtme/43a9ndqvh/AppShowcase1.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></a>
+              <label className="imgLabel">New website with new header image</label>
             </div>
             <div className="imgContainer">
-              <a href="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></a>
-              <label className="imgLabel">GUI example in Android app mobile game</label>
+              <a href="https://assets.onecompiler.app/42xjnjtme/43a9pnrnp/AppShowcase2.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></a>
+              <label className="imgLabel">New website web page title</label>
+            </div>
+            <div className="imgContainer">
+              <a href="https://assets.onecompiler.app/42xjnjtme/43a9ndqvh/AppShowcase3.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-105912.png" /></a>
+              <label className="imgLabel">New website first row of app list</label>
+            </div>
+            <div className="imgContainer">
+              <a href="https://assets.onecompiler.app/42xjnjtme/43a9ndqvh/AppShowcase4.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110038.png" /></a>
+              <label className="imgLabel">New website, individual app details web page part one</label>
+            </div>
+            <div className="imgContainer">
+              <a href="https://assets.onecompiler.app/42xjnjtme/43a9ndqvh/AppShowcase5.png" target="_blank" rel="noopener noreferrer"><img className="knightsImg" src="https://assets.onecompiler.app/42xjnjtme/43982um62/Screenshot_20250209-110006.png" /></a>
+              <label className="imgLabel">New website, individual app details web page part two</label>
             </div>
           </div>
-          <p className="projectDetails">Knight RPG Tycoon is an Android mobile game done using Godot in GDScript. It includes real-time combat, random affixed items, item stores, AI controlled units, character leveling, knight recruiting, raid boss, saving/loading, music and sounds, audio settings, and menu.</p>
+          <p className="projectDetails">The original version was swapped out for a minimalist approach and removed the navigation bar. The new website has direct links to the Google Play Store and Apple App Store. This website was done in Next.js with typescript.</p>
+          <div className="links">
+            <p>Live URL: </p><a href="https://next-beige-nu.vercel.app/" target="_blank" rel="noopener noreferrer">AppShowcase Order</a>
+            <p>Github URL: </p><a href="https://github.com/crlapples/next" target="_blank" rel="noopener noreferrer">Repository</a>
+          </div>
         </div>
         <div className="spacer" />
       </div>
